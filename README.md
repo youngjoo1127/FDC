@@ -44,4 +44,7 @@
 
 ##### Online Tools
 
-- [toolmarklets](http://www.toolmarklets.com/)
+- [Toolmarklets](http://www.toolmarklets.com/)
+- [Typografier](http://typografier.web-dev.tools)
+- [Modulifier](http://modulifier.web-dev.tools)
+- [Gridifier](http://gridifier.web-dev.tools)
