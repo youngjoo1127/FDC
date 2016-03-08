@@ -2,7 +2,7 @@
 
 ## Reference
 
-프론트엔드 디자인 CAMP 강의와 관련하여 복습 시, 참고할 수 있는 레퍼런스를 제공합니다.
+[프론트엔드 디자인 CAMP](http://www.fastcampus.co.kr/dev_camp_dfep) 강의와 관련하여 복습 시, 참고할 수 있는 레퍼런스를 제공합니다.
 
 ![레퍼런스](Assets/dsgn_web_reference.png)
 
@@ -43,6 +43,53 @@
 ##### Online Tools
 
 - [Toolmarklets](http://www.toolmarklets.com/)
+- [placeit](https://placeit.net/)
 - [Typografier](http://typografier.web-dev.tools)
 - [Modulifier](http://modulifier.web-dev.tools)
 - [Gridifier](http://gridifier.web-dev.tools)
+
+-
+
+##### Photoshop Plugins
+
+###### Guide
+
+- [Griddify](http://gelobi.org/griddify/)
+- [GuideGuide](http://guideguide.me/)
+- [Templay](http://templay.maketheweb.pl/)
+
+###### Dimension
+
+- [Specctr](https://www.specctr.com/)
+- [Specking](http://www.wuwacorp.com/specking/)
+- [Size Marks PS](https://github.com/romashamin/Size-Marks-PS)
+
+###### Uber Plugins
+
+- [uberplugins](http://uberplugins.cc/)
+
+###### Color Management
+- [ColorKit](http://colorkit.maketheweb.pl/)
+
+###### Image
+
+- [SplasHolder](http://splasholder.pixoil.com/)
+
+###### Kam88 Scripts
+
+- [Expanding Smart Objects](http://blog.kam88.com/en/expanding-smart-objects-script.html)
+- [Transform Each 2.1](http://blog.kam88.com/en/transform-each-21-update.html)
+- [RotateMe 3.0](http://blog.kam88.com/en/rotateme-30.html)
+- [Isometrify](http://blog.kam88.com/en/isometrify.html)
+
+-
+
+##### Etc.
+
+- [The Ultimate Guide To The Best Specs Plugins For Photoshop](http://blog.yummygum.com/post/99044078154/the-ultimate-guide-to-the-best-specs-plugins-for)
+- [25 Best Web Design & Development Tools 2016](http://bashooka.com/coding/25-best-web-design-development-tools-2016/)
+- [CSS & PSD Grid Layout Generators](http://bashooka.com/freebie/css-psd-grid-layout-generators/)
+- [CSS Flexbox : 15 Resources To Get You Started](http://bashooka.com/coding/css-flexbox-15-resources-to-get-you-started/)
+- [32 Amazing Text Effect Photoshop Actions](http://bashooka.com/photoshop/32-amazing-text-effect-photoshop-actions/)
+- [18 Detailed Photoshop UI Design Tutorials](http://bashooka.com/photoshop/18-detailed-photoshop-ui-design-tutorials/)
+- [Free PSD Perspective App Mockups](http://designmodo.com/perspective-app-mockups/)
