@@ -14,7 +14,10 @@
 - [웹 그리드 시스템](https://github.com/yamoo9/PSD2HTML-CSS/wiki/%EC%9B%B9-%EA%B7%B8%EB%A6%AC%EB%93%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C)
 - [황금 비율](https://github.com/yamoo9/PSD2HTML-CSS/wiki/%EC%9E%90%EC%97%B0-%EC%95%88%EC%97%90%EC%84%9C-%EC%B0%BE%EC%9D%80-%ED%99%A9%EA%B8%88-%EB%94%94%EC%9E%90%EC%9D%B8)
 - [모듈러 스케일](http://type-scale.com/)
-- [버티컬 리듬](http://www.basehold.it/)
+- [버티컬 리듬](https://24ways.org/2006/compose-to-a-vertical-rhythm)
+    - [Incremental Leading](http://www.markboulton.co.uk/journal/incremental-leading)
+    - [Basehold](http://www.basehold.it/)
+- [디스플레이상에서 폰트의 크기,굵기,명도]([http://yeun.github.io/2016/03/09/font-weight-and-color.html)
 
 -
 
@@ -51,6 +54,10 @@
 -
 
 ##### Photoshop Plugins
+
+###### Custom Manager CC
+
+- [PVII Extension Manager CC](http://projectseven.com/products/ex-man/info.htm)
 
 ###### Guide
 
