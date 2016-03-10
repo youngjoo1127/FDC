@@ -17,7 +17,8 @@
 - [버티컬 리듬](https://24ways.org/2006/compose-to-a-vertical-rhythm)
     - [Incremental Leading](http://www.markboulton.co.uk/journal/incremental-leading)
     - [Basehold](http://www.basehold.it/)
-- [디스플레이상에서 폰트의 크기,굵기,명도]([http://yeun.github.io/2016/03/09/font-weight-and-color.html)
+- [디스플레이상에서 폰트의 크기,굵기,명도](http://yeun.github.io/2016/03/09/font-weight-and-color.html)
+- [UX 디자이너는 코딩을 배워야 할까](http://story.pxd.co.kr/1142)
 
 -
 
