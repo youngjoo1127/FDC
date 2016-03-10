@@ -1,0 +1,14 @@
+
+body {
+	/* 마진(외부여백) */
+	margin-left: 20%;
+	margin-right: 20%;
+	/* 행간 */
+	line-height: 1.5; /* 16px x 1.5 = 24px */
+	/* 서체 크기 */
+	font-size: 18px;
+	/* 서체 색상 */
+	color: #1d1f20;
+	/* 글자 사이 간격(자간) */
+	letter-spacing: -0.02em; /* -20 ÷ 1000 em */
+}
