@@ -121,9 +121,9 @@
 
 -
 
-> 폰트크기(font-size): 이전 폰트크기(previous-font-size) × 타입배율(type-scale)
+##### 모듈러 스케일을 반영한 단락, 제목 글자 크기 설정
 
-[Type Scale](http://type-scale.com/)
+> 폰트크기(font-size): 이전 폰트크기(previous-font-size) × 타입배율(type-scale)
 
 ```css
 h5 {
@@ -236,10 +236,10 @@ h1, .exa {
 
 ### 모듈러 타이포그래피 도구
 
-[Typografier](http://typografier.web-dev.tools/)
-[type-scale](http://type-scale.com/)
-[modularscale](http://www.modularscale.com/)
-[gridlover](http://www.gridlover.net/)
+- [Typografier](http://typografier.web-dev.tools/)
+- [type-scale](http://type-scale.com/)
+- [modularscale](http://www.modularscale.com/)
+- [gridlover](http://www.gridlover.net/)
 
 ### 읽어볼 참고 자료
 
