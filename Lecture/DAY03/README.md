@@ -119,6 +119,10 @@
 
 ![type-system-with-modular-scale](base-design/gridlover-free-type-system-with-modular-scale.jpg)
 
+수업 과정에서 만들어 본 Typography System 결과물
+
+![typography-system](base-design/typography-system.gif)
+
 -
 
 ##### 모듈러 스케일을 반영한 단락, 제목 글자 크기 설정
