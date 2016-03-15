@@ -247,3 +247,30 @@ h1, .exa {
 - [How To Use Size, Scale, And Proportion In Web Design](http://vanseodesign.com/web-design/size-scale-proportion/)
 
 <!-- [Vertical Rhythm and Modular Scale: Typesettings](http://www.slideshare.net/iancrose/vertical-rhythm-and-modular-scale-typesettings) -->
+
+-
+
+#### EM vs REM
+
+```css
+/* EM vs REM */
+/* Root Element = HTML 문서의 뿌리 요소 */
+html {
+	font-size: 16px;
+}
+
+body {
+	font-size: 0.88em; /* 16 x 0.88 = 14 */
+	font-size: 0.88rem; /* 16 x 0.88 = 14 */
+}
+
+div {
+	font-size: 1.07em; /* 16 x 0.88 x 1.07 = 15 */
+	font-size: 0.94rem; /* 16 x 0.94 = 15 */
+}
+
+div p {
+	font-size: 0.87em; /* 16 x 0.88 x 1.07 = 13 */
+	font-size: 0.81rem; /* 16 x 0.81 = 13 */
+}
+```

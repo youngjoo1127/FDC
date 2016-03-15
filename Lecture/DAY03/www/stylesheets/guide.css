@@ -1,0 +1,55 @@
+body {
+	margin: 0; /* 외부 여백 공간을 제거: 0px */
+	/* 행폭 */
+	width: 50%;
+	/* 화면 가운데 배치를 위한 외부 여백 공간 배분 */
+	margin-left: auto;
+	margin-right: auto;
+	/* 배경이미지를 사용하여 행간(leading)을 화면에 표시한다. */
+	background-image: url("../images/guides/leading-27.gif")
+}
+
+/* 제목 디자인: h1-6 */
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+/*	margin-bottom: 1.5em;*/
+}
+
+/* Type Scale: x1.25*/
+
+h5 {
+	font-size: 1em; /* 1em, 1rem */
+}
+
+h4 {
+	font-size: 1.25em; /* 1 x 1.25 ^ 1 */
+}
+
+h3 {
+	font-size: 1.56em; /* 1 x 1.25 ^ 2 */
+}
+
+h2 {
+	font-size: 1.95em; /* 1 x 1.25 ^ 3 */
+}
+
+h1 {
+	font-size: 2.44em; /* 1 x 1.25 ^ 4 */
+}
+
+/* 단락 디자인 */
+p {
+	/* 글자 색상 */
+	color: #3f3d43;
+	/* 글자 크기 */
+	font-size: 18px;
+	/* 줄 간격(행간): font-size x type-scale = 18 x 1.5 = 27 */
+	line-height: 1.5;
+	/* 글자 사이 간격(자간) */
+	letter-spacing: -0.01em;
+	/* 단락(객체)과 단락 사이 간격(외부 공간) */
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	/* 글의 덩어리를 정렬 */
+	text-align: justify;
+}
