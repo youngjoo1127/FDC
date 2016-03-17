@@ -26,10 +26,11 @@ h2 {
 }
 
 a {
+	margin-left: 1rem;
 	margin-right: 1rem;
 	/* solid, dotted, dashed, double, inset, outset */
-	border-right: 1px solid #cf2f0f;
-	padding-right: 1rem;
+/*	border-right: 1px solid #cf2f0f;*/
+/*	padding-right: 1rem;*/
 	text-decoration: none;
 	color: #ababab;
 	/* background-color: #ff0; */
@@ -42,6 +43,10 @@ a {
 */
 a:hover {
 	color: #313131;
+}
+
+div a:first-child {
+	margin-left: 0;
 }
 
 a.no-line {
@@ -77,4 +82,16 @@ h2 span {
 	font-style: normal;
 	font-weight: 700;
 	color: tomato;
+}
+
+/*
+가상 요소(pseudo Element)
+::before
+::after
+*/
+
+div a::after {
+	content: '♥';
+	color: slategray;
+	
 }
