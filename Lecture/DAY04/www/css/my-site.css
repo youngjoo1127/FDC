@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* my-site.css @ yamoo9.net 2016 */
+
+body {
+	width: 800px;
+	margin: 2rem auto;
+	line-height: 1.5;
+}
+
+h1, h2 {
+	margin-top: 0;
+	margin-bottom: 1.5rem;
+	font-family: 'Quicksand', sans-serif;
+	letter-spacing: -0.045em;
+}
+
+h1 {
+	font-weight: 300;
+	font-size: 4.5rem; /* 16 * 4.5 = 72px */
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 1.8rem;
+	color: #ababab;
+}
+
+a {
+	margin-right: 1rem;
+	/* solid, dotted, dashed, double, inset, outset */
+	border-right: 1px solid #cf2f0f;
+	padding-right: 1rem;
+	text-decoration: none;
+	color: #ababab;
+	/* background-color: #ff0; */
+}
+
+/*
+상태(state) 디자인
+기본 상태 (:link)
+마우스가 올라간 상태 (:hover)
+*/
+a:hover {
+	color: #313131;
+}
+
+a.no-line {
+	border-right: 0;
+/*	border-right: none;*/
+}
+
+/* 
+	가상(유사) 클래스(Pseudo Class) 
+	First Child => :first-child
+	Last Child => :last-child
+	1st, 2nd, 3rd, 4th, 5th, 6th, ...., nth
+	몇 번째 자식을 찾을 때는?
+	:nth-child(2)
+	:nth-child(3)
+*/
+div a:last-child {
+	margin-right: 0;
+	border-right: 0; /* none */
+	padding-right: 0;
+}
+
+/*div a:nth-child(1) { color: aquamarine; }*/
+/*div a:nth-child(2) { color: darkturquoise; }*/
+/*div a:nth-child(3) { color: coral; }*/
+/*div a:nth-child(4) { color: chocolate; }*/
+
+div a:nth-child(even) { color: darkturquoise; }
+div a:nth-child(odd) { color: coral; }
+
+
+h2 span {
+	font-style: normal;
+	font-weight: 700;
+	color: tomato;
+}
