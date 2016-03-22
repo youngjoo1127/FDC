@@ -23,11 +23,11 @@
 
 ### Noto Sans
 
-구글은 웹과 인터넷에서 한글을 보다 아름답고 다양하게 표현할 수 있도록 많은 노력을 기울여 왔습니다. 
+구글은 웹과 인터넷에서 한글을 보다 아름답고 다양하게 표현할 수 있도록 많은 노력을 기울여 왔습니다.
 그 일환으로 국내 글꼴 제작사가 만든 여러 종류의 한국어 글꼴을 구글 웹 폰트 서비스에 더해 왔습니다.
 이제 Noto Sans KR을 11번째 한국어 웹 글꼴로 내놓습니다.
 
-웹 디자이너 여러분, 어떤 플랫폼이나 화면 배율에서도 미려하고, 웹 접근성도 우수하며 
+웹 디자이너 여러분, 어떤 플랫폼이나 화면 배율에서도 미려하고, 웹 접근성도 우수하며
 검색 엔진 친화적인 웹 사이트 디자인을 원하신다면 웹 글꼴을 적용해 보세요.
 
 [Noto Sans DEMO](http://jungshik.github.io/gwf/noto_sans_korean_demo2.html)
@@ -200,28 +200,6 @@ https://developer.mozilla.org/ko/docs/Web/HTML/Element/span
 ```
 
 ---
-
-### 그리드 시스템 (Grid System)
-
-###### 프린트 기반의 그리드 시스템 (Grid System for Print)
-
-![The Grid System](grid-system/grid_highlight.jpg)
-
--
-
-###### 웹 기반의 그리드 시스템 (Grid System for Web)
-
-![The Grid System - Grid Diag](grid-system/grid-diag.jpg)
-
--
-
-###### 그리드 시스템을 활용한 레이아웃
-
-![The Grid System - Web Grid](grid-system/web-grid.gif)
-![The Grid System](grid-system/the-grid-system.png)
-
-
--
 
 ##### 참고 자료
 
