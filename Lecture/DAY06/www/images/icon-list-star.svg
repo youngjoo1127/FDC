@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.995" height="18.735" viewBox="0 0 1333 1249">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8c4deb;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1" y="1" width="1333" height="1249" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="1" y="1" width="1333" height="1249" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTMzMyIgaGVpZ2h0PSIxMjQ5IiB2aWV3Qm94PSIwIDAgMTMzMyAxMjQ5Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeDE9IjEwNC4xOTgiIHkxPSIxMjQ5IiB4Mj0iMTIyOC44MDIiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMjdhZWYzIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzc4NDlmZiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iMTMzMyIgaGVpZ2h0PSIxMjQ5Ii8+Cjwvc3ZnPgo="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path class="cls-1" d="M1309.93,496.367q-112.575-18.7-225.14-37.369-123.165-20.451-246.317-40.863c-3.641-.6-6.028-2.062-7.531-5.48-5.421-12.33-11.5-24.394-16.432-36.913Q745.333,200.029,676.483,24.187C673.6,16.829,670.805,9.434,667.562,1c-1.3,2.972-2.182,4.856-2.953,6.785q-81.087,202.67-162.083,405.377c-1.2,3.013-2.782,4.432-5.948,4.951q-60.613,9.933-121.2,20.048-88.653,14.7-177.3,29.411-83.253,13.836-166.5,27.733C21.7,496.952,11.833,498.655,1,500.5c2.2,1.716,3.464,2.744,4.769,3.722q161.71,121.248,323.467,242.435c3.169,2.373,5,4.433,4.2,8.877-3.647,20.307-6.9,40.686-10.3,61.037q-17.287,103.4-34.579,206.794-16.94,101.43-33.828,202.87c-1.265,7.6-2.428,15.21-3.779,23.7,2.4-1.36,3.844-2.12,5.242-2.96Q459.4,1125.1,662.657,1003.3c3.581-2.14,4.94-4.273,4.933-8.516q-0.222-118.948-.109-237.9v-6.731H674.2q160.5,0,320.992.152a15.53,15.53,0,0,0,10.064-3.176q160.86-120.759,321.84-241.324c2.08-1.555,4.11-3.155,6.9-5.31C1325.27,498.991,1317.6,497.642,1309.93,496.367ZM751.488,1083.05H1167.53v-82.97H751.488v82.97Zm0-165.947H1167.53V834.128H751.488V917.1Zm0,332.9H1167.53v-82.97H751.488V1250Z" transform="translate(-1 -1)"/>
+</svg>
