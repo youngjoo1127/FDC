@@ -11,6 +11,7 @@ body {
   padding: 1.5rem;
   margin: 0 auto;
 }
+
 h1 {
   font-family: inherit;
   font-weight: 100;
@@ -56,6 +57,11 @@ h5 {
   margin-top: 1.5rem;
   margin-bottom: 0rem;
 }
+
+h1,h2,h3,h4,h5 {
+margin-bottom: 1.5rem;
+}
+
 p, ul, ol, pre, table, blockquote {
   margin-top: 0rem;
   margin-bottom: 1.5rem;
@@ -85,7 +91,35 @@ a {
   color: #268ED9;
 }
 
-.gridlover-grid body {
+/*
+
+HTML 문서에 사용되는 요소는 크게 2가지로 분류된다.
+
+1. 블록 요소
+  가로 폭은 auto, 부모 만큼 늘어난다.
+  높이 폭은 자식의 높이 만큼 늘어나는데 자식이 없으면 0이다.
+
+  h1-6, p, div, ...
+
+2. 인라인 요소
+  부모와 상관없이 자식 콘텐츠의 넓이, 높이만큼만 폭을 가진다.
+  별도의 공간이 없기 때문에 정렬, 들여쓰기(내어쓰기)가 수행되지 않는다.
+  넓이(width), 높이(height) 설정이 안된다.
+  마진의 위/아래, 패딩의 위/아래 설정이 되지 않는다.
+
+  a, q, strong, em, b, i, s, ...
+
+ */
+
+/* 인용 Quotation */
+q {
+  display: inline-block;
+}
+.quot, q {
+  text-indent: -0.41em;
+}
+
+.gridlover-grid body:hover {
   background-image: linear-gradient(to bottom, hsla(200, 100%, 50%, .8) 1px, transparent 1px);
   background-position: left -1px;
   background-repeat: repeat;
