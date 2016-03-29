@@ -22,11 +22,12 @@ abbr {
 	cursor: help;
 }
 
-abbr::after {
+/*abbr::after {
   font-size: 0.69rem;
   content: ' ' attr(title);
   vertical-align: 1rem;
-}
+  line-height: 0;
+}*/
 
 /*
 프린트 사용자를 위한 디자인
@@ -39,6 +40,7 @@ abbr::after {
 		font-size: 0.69rem;
 		content: ' ' attr(title);
 		vertical-align: 1rem;
+    line-height: 0;
 	}
 
 }

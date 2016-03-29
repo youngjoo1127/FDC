@@ -1,11 +1,25 @@
 <!DOCTYPE html>
-<html lang="ko-KR">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Messenger App Friend List</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="guide">
+
+  <div class="app">
+    <div class="app-header">
+      <!-- 접근성 관점에서 버튼의 경우, 키보드로 포커스가 되어야 합니다. -->
+      <a role="button" href class="app-header--menu">
+        <!-- 접근성 관점에서 alt는 대체 텍스트(Aternate Text) -->
+        <img src="images/ui-icons/icon-menu.svg" width="24" height="17" alt="toggle hidden menu">
+      </a>
+      <h1 class="app-header--title">Friend list</h1>
+      <a href role="button" class="app-header--config">
+        <img src="images/ui-icons/icon-settings.svg" width="18" height="18" alt="setting applictaion">
+      </a>
+    </div>
+  </div>
 
 </body>
 </html>
