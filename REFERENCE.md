@@ -101,3 +101,10 @@
 - [32 Amazing Text Effect Photoshop Actions](http://bashooka.com/photoshop/32-amazing-text-effect-photoshop-actions/)
 - [18 Detailed Photoshop UI Design Tutorials](http://bashooka.com/photoshop/18-detailed-photoshop-ui-design-tutorials/)
 - [Free PSD Perspective App Mockups](http://designmodo.com/perspective-app-mockups/)
+
+-
+
+##### Mobile
+
+- [Viewport & Media Queries, The Complete Idiot's Guide](https://docs.google.com/presentation/d/1rmxwWa9P6_xHqonmh5ONXRS-jPc5XKbnv99Rjkhe04s/present?slide=id.i0)
+- [a pixel is not a pixel is not a pixel](http://www.quirksmode.org/blog/archives/2010/04/a_pixel_is_not.html)
