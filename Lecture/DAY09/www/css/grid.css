@@ -8,13 +8,14 @@
  * 컬럼 폭: 110 - 22 = 88px
  */
 .container {
+  position: relative;
   /*max-width: 1320px;  Old IE를 위한 코드 */
-  max-width: 82.5rem;
+  width: 82.5rem;
   margin-left: auto;
   margin-right: auto;
 }
 
-.container.grid {
+body:hover .container.grid {
   min-height: 100vh;
   background: url("../images/guide/grid-system-11-88-11--110.png");
 }
@@ -27,6 +28,10 @@
   float: left;
   margin-left: 11px;
   margin-right: 11px;
+}
+
+.col img {
+  vertical-align: bottom;
 }
 
 .col-1  { width: 88px;  }
