@@ -5,8 +5,27 @@ body {
 
 .page {
   padding-top: 1.5rem;
+  color: #818181;
 }
 
 .row {
   margin-bottom: 24px;
+}
+
+.big-headline {
+  position: relative;
+  top: 6px;
+  margin-bottom: 1.7rem;
+  font-size: 200px;
+  line-height: 0.83;
+  letter-spacing: -0.04em;
+  color: #6d7fdf;
+}
+
+.point-image {
+  border-radius: 6px;
+}
+
+.circle {
+  border-radius: 50%;
 }
