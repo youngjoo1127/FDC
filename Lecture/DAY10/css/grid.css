@@ -12,3 +12,57 @@
  *
  */
 
+.container {
+  width: 1270px;
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container:hover {
+  background-image: url("../images/v-gap-10.png");
+}
+
+/* Clearfix */
+.container .row::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/*.container .col {*/
+.container [class*="col-"] {
+  float: left;
+  margin-right: 10px;
+}
+
+.container .col img {
+  vertical-align: bottom;
+}
+
+.container .col-1  { width: 70px;   }
+.container .col-2  { width: 150px;  }
+.container .col-3  { width: 230px;  }
+.container .col-4  { width: 310px;  }
+.container .col-5  { width: 390px;  }
+.container .col-6  { width: 470px;  }
+.container .col-7  { width: 550px;  }
+.container .col-8  { width: 630px;  }
+.container .col-9  { width: 710px;  }
+.container .col-10 { width: 790px;  }
+.container .col-11 { width: 870px;  }
+.container .col-12 { width: 950px;  }
+.container .col-13 { width: 1030px; }
+.container .col-14 { width: 1110px; }
+.container .col-15 { width: 1190px; }
+.container .col-16 { width: 1270px; }
+
+.container .first,
+.container .alpha {
+  margin-left: 0;
+}
+
+.container .last,
+.container .omega {
+  margin-right: 0;
+}
