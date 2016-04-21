@@ -9,9 +9,14 @@
  * 페이지 스타일
  */
 
+::selection {
+  background: #6B3A23;
+  color: #fff;
+}
+
 body {
   background: #fff;
-  color: #615282;
+  color: #856151;
 }
 
 .page {
@@ -19,7 +24,7 @@ body {
 }
 
 .page-header {
-  background: #8e44ad;
+  background: #6B3A23;
   height: 7.5rem; /* 1.5 x 4 */
 }
 
@@ -35,28 +40,72 @@ body {
   font-weight: 100;
 }
 
+.brand a .fa-coffee {
+  position: relative;
+  top: -2px;
+}
+
 .brand img {
   vertical-align: middle;
 }
 
 .gnb {
   /*background: #eee;*/
-  border-bottom: 1px solid #8e44ad;
+  border-bottom: 1px solid #6B3A23;
 }
 
 .gnb ul {
   list-style: none;
   margin-bottom: 0;
-  padding-left: 0;
+  padding-left: 10px;
+}
+
+.gnb li {
+  float: left;
+  margin-right: 1.5rem;
 }
 
 .gnb a {
+  position: relative;
   display: block;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   text-align: center;
   text-decoration: none;
-  color: #8e44ad;
+  color: #6B3A23;
+}
+
+.gnb a:after,
+.gnb a::after {
+  position: absolute;
+  top: -20px;
+  left: -7px;
+  content: '';
+  display: block;
+  width: 5px;
+  height: 5px;
+  background: #6B3A23;
+  border-radius: 50%;
+  transition: all 0.2s ease-out;
+}
+
+.gnb a:hover,
+.gnb a:focus,
+.gnb a.active {
+  font-weight: 900;
+}
+
+.gnb a:hover:after,
+.gnb a:hover::after,
+.gnb a:focus:after,
+.gnb a:focus::after,
+.gnb a.active:after,
+.gnb a.active::after {
+  top: 7px;
+}
+
+.gnb a:focus {
+  outline: none;
 }
 
 main {
@@ -69,5 +118,15 @@ main .coffee-bitter-taste {
 }
 
 main .coffee-title {
-  color: #8e44ad;
+  color: #6B3A23;
+}
+
+.rwd-image {
+  width: 100%;
+  height: auto;
+}
+
+.micro {
+  font-size: 11px;
+  line-height: 1.8;
 }
