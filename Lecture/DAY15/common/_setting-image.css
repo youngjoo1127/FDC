@@ -1,0 +1,37 @@
+/*! _setting-image.css © yamoo9.net, 2016 */
+
+/* --------------------------------------------------------------------------------- *
+ * 이미지 설정: 반응형, 이미지 대체 기법, SVG 헬퍼
+ * 반응형 이미지 처리(Responsive images)
+ * IR(Image Replacement) 기법
+ * SVG helpers
+ * --------------------------------------------------------------------------------- */
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+.rwd-image, .img-flex {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-replacement, .ir {
+  overflow: hidden;
+  direction: ltr;
+  text-align: left;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+svg {
+  fill: currentColor;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}

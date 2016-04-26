@@ -1,0 +1,13 @@
+/*! common.css © yamoo9.net, 2016 */
+
+/* --------------------------------------------------------------------------------- *
+ * 프로젝트에서 필요로 하는 공통 모듈만 호출하도록 설정할 수 있습니다.
+ * 온라인 생성기: http://url.yamoo9.net/common
+ * --------------------------------------------------------------------------------- */
+@import "_setting-mobile.css";
+@import "_setting-hidden.css";
+@import "_setting-a11y.css";
+@import "_setting-image.css";
+@import "_setting-media.css";
+@import "_setting-form.css";
+@import "_setting-print.css";

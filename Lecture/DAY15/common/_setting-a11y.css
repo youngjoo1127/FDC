@@ -1,0 +1,44 @@
+/*! _setting-a11y.css © yamoo9.net, 2016 */
+
+/* --------------------------------------------------------------------------------- *
+ * 접근성(Accessibility) 설정
+ * 포커스 요소에 포커스 상태 표시 설정
+ * 본문 바로 가기(Skip to Content) 설정
+ * --------------------------------------------------------------------------------- */
+
+a:hover, a:active {
+  outline: none;
+}
+a:focus, [tabindex="0"]:focus, input:focus, textarea:focus, button:focus, select:focus {
+  outline: 3px solid #ff0;
+  outline-width: 0.1875rem;
+}
+a:focus, [tabindex="0"]:focus {
+  outline-offset: 3px;
+  outline-offset: 0.1875rem;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+.skip-to-content {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.skip-to-content > li::before {
+  content: none;
+}
+.skip-to-content a {
+  position: absolute;
+  z-index: 10000;
+  top: -10em;
+  padding: 0.5em 0.75em;
+  color: #fff;
+  background-color: #000;
+  font-size: 1.125rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.skip-to-content a:focus {
+  top: 0;
+}
