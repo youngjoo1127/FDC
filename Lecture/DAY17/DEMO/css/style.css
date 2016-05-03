@@ -1,0 +1,18 @@
+.tag {
+  display: inline-block;
+  padding: 0.35rem 0.7rem;
+  text-decoration: none;
+  color: #ddd;
+  background: #333;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  vertical-align: top;
+}
+
+.tag.tag-white {
+  background: #fff;
+  padding-top: .4rem;
+  padding-bottom: .4rem;
+  border: 1px solid #bbb;
+  color: #333;
+}
