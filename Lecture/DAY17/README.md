@@ -9,7 +9,8 @@
 
 ### 1. 아래 PSD 파일을 내려 받기
 
-[DEMO PSD](Assets/clebee-main.psd)
+- [DEMO `clebee-main.psd`](Assets/clebee-main.psd)
+- [DEMO `aware-elements.psd`](Assets/aware-elements.psd)
 
 -
 
@@ -33,6 +34,10 @@
 - JPG
 - PNG
 - Sprite Image
+  - [spritecow.com](http://www.spritecow.com/)
+  - [arnaumarch sprites](http://arnaumarch.com/en/sprites.html)
+  - [generator-script](http://www.johnwordsworth.com/projects/photoshop-sprite-sheet-generator-script/)
+  - [spritepad](http://spritepad.wearekiss.com/)
 
 -
 

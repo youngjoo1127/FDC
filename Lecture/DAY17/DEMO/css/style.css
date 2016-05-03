@@ -1,3 +1,7 @@
+/**
+ * --------------------------------
+ * .tag
+ * ----------------------------- */
 .tag {
   display: inline-block;
   padding: 0.35rem 0.7rem;
@@ -8,7 +12,6 @@
   font-size: 0.75rem;
   vertical-align: top;
 }
-
 .tag.tag-white {
   background: #fff;
   padding-top: .4rem;

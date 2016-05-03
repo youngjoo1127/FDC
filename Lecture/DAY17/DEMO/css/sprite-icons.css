@@ -4,7 +4,7 @@
 *[class*="sprite-icon-"] {
   display: inline-block;
   background: url("../images/sprites/sprite-image.png") no-repeat;
-  vertical-align: -2px;
+  vertical-align: -0.125rem;
 }
 
 .sprite-icon-reload { background-position: 0px 0px; width: 14px; height: 16px; }
