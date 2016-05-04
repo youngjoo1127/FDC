@@ -3,7 +3,8 @@
 ### 0. 디자이너에 관한 이야기
 
 - [디자인 단상, 그냥 한국 웹디자이너 이야기.](https://brunch.co.kr/@sonujung/8)
-- [디자인 전문 기업에 대한 단상](https://medium.com/selected-works/%EC%A7%80%EA%B7%B9%ED%9E%88-%EC%82%AC%EC%A0%81%EC%9D%B8-%EB%94%94%EC%9E%90%EC%9D%B8-%EB%8B%A8%EC%83%81-1-50cd4c981d7d#.353t24bl5)
+- [디자인 전문 기업에 대한 단상.](https://medium.com/selected-works/%EC%A7%80%EA%B7%B9%ED%9E%88-%EC%82%AC%EC%A0%81%EC%9D%B8-%EB%94%94%EC%9E%90%EC%9D%B8-%EB%8B%A8%EC%83%81-1-50cd4c981d7d#.353t24bl5)
+- [디자인 주도 전략.](http://blog.jdlab.org/kr/archives/183)
 
 -
 
