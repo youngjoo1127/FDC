@@ -16,7 +16,7 @@
  * ROW Design
  * ----------------------------- */
 .row {
-  margin-bottom: 1rem;
+  /*margin-bottom: 1rem;*/
 }
 
 .row::after {
@@ -24,6 +24,16 @@
   display: block;
   clear: both;
 }
+
+/**
+ * --------------------------------
+ * GUTTER Design
+ * ----------------------------- */
+.gutter {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 /**
  * --------------------------------
  * COLUMN Design
@@ -176,13 +186,4 @@
 
   .s-hidden, .m-hidden { display: block; }
   .l-hidden { display: none; }
-}
-
-/**
- * --------------------------------
- * GUTTER Design
- * ----------------------------- */
-.gutter {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }

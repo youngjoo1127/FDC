@@ -5,6 +5,11 @@
   padding-bottom: 1rem;
 }
 
+.demo img {
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+}
+
 .demo div:nth-child(1) {
   background: #FE4940;
 }
