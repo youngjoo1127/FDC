@@ -1,0 +1,17 @@
+/*! page.css © yamoo9.net, 2016 */
+
+.demo div {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.demo div:nth-child(1) {
+  background: #FE4940;
+}
+.demo div:nth-child(2) {
+  background: #dd0;
+}
+.demo div:nth-child(3) {
+  background: #34C0FF;
+}
+

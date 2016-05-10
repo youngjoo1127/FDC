@@ -1,0 +1,129 @@
+/*! grid.css © yamoo9.net, 2016
+ *  %를 사용하는 그리드 시스템 (복습)
+ *  RWD을 구현하는 미디어쿼리(Media Queries)를 학습하여 반응형 그리드 시스템을 구현.
+ *  MeterializeCSS 프레임워크 활용 (유사한 형태의 그리드 시스템)
+ */
+
+/**
+ * --------------------------------
+ * CONTAINER Design
+ * ----------------------------- */
+.container {
+  margin: 0 auto;
+}
+/**
+ * --------------------------------
+ * ROW Design
+ * ----------------------------- */
+.row {
+  margin-bottom: 1rem;
+}
+
+.row::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/**
+ * --------------------------------
+ * COLUMN Design
+ * COLUMNS: 12
+ * ----------------------------- */
+.col {
+  float: left;
+  box-sizing: border-box;
+}
+.container.show-gutter .gutter {
+  /*배경색을 content-box까지만 사용하도록 설정*/
+  background-clip: content-box;
+}
+
+/**
+ * --------------------------------
+ * SCREEN SIZE: Small
+ * .s1 ~ .s12
+.s1  { width: 100/12 * 1;  }
+.s2  { width: 100/12 * 2;  }
+.s3  { width: 100/12 * 3;  }
+.s4  { width: 100/12 * 4;  }
+.s5  { width: 100/12 * 5;  }
+.s6  { width: 100/12 * 6;  }
+.s7  { width: 100/12 * 7;  }
+.s8  { width: 100/12 * 8;  }
+.s9  { width: 100/12 * 9;  }
+.s10 { width: 100/12 * 10; }
+.s11 { width: 100/12 * 11; }
+.s12 { width: 100/12 * 12; }
+ */
+
+/* 중단점(Breakpoint) 디자인(설계) */
+@media screen and (max-width: 799px) {
+  .s1  { width: 8.33%;  }
+  .s2  { width: 16.66%; }
+  .s3  { width: 25%;    }
+  .s4  { width: 33.33%; }
+  .s5  { width: 41.66%; }
+  .s6  { width: 50%;    }
+  .s7  { width: 58.33%; }
+  .s8  { width: 66.66%; }
+  .s9  { width: 75%;    }
+  .s10 { width: 83.33%; }
+  .s11 { width: 91.66%; }
+  .s12 { width: 100%;   }
+}
+
+/**
+ * --------------------------------
+ * SCREEN SIZE: Medium
+ * .m1 ~ .m12
+ */
+@media screen and (min-width: 800px) and (max-width: 1199px) {
+  .container {
+    max-width: 1100px;
+  }
+  .m1  { width: 8.33%;  }
+  .m2  { width: 16.66%; }
+  .m3  { width: 25%;    }
+  .m4  { width: 33.33%; }
+  .m5  { width: 41.66%; }
+  .m6  { width: 50%;    }
+  .m7  { width: 58.33%; }
+  .m8  { width: 66.66%; }
+  .m9  { width: 75%;    }
+  .m10 { width: 83.33%; }
+  .m11 { width: 91.66%; }
+  .m12 { width: 100%;   }
+}
+
+
+/**
+ * --------------------------------
+ * SCREEN SIZE: Large
+ * .l1 ~ .l12
+ */
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+  .l1  { width: 8.33%;  }
+  .l2  { width: 16.66%; }
+  .l3  { width: 25%;    }
+  .l4  { width: 33.33%; }
+  .l5  { width: 41.66%; }
+  .l6  { width: 50%;    }
+  .l7  { width: 58.33%; }
+  .l8  { width: 66.66%; }
+  .l9  { width: 75%;    }
+  .l10 { width: 83.33%; }
+  .l11 { width: 91.66%; }
+  .l12 { width: 100%;   }
+}
+
+/**
+ * --------------------------------
+ * GUTTER Design
+ * ----------------------------- */
+.gutter {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
