@@ -13,16 +13,19 @@
   z-index: 10000;
   margin: 0;
   padding: 1em;
-  background-color: #303030;
-  background-color: hsla(0, 0%, 19%, 0.35);
-  color: #fff;
+  background-color: #64646d;
+  /*background-color: hsla(0, 0%, 19%, 0.35);*/
+  color: #c6c6c8;
 }
 
 .notification-for-old-browser-user a {
-  color: #34c0ff;
+  color: #fff;
   text-decoration: none;
+  font-weight: bold;
 }
 
-html {
+.demo-bg {
+  min-height: 100vh;
   background: #ffd219 url("../images/demo-bg.jpg") no-repeat center top;
+  background-size: cover;
 }
