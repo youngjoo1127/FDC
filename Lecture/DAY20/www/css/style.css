@@ -18,6 +18,14 @@
   color: #c6c6c8;
 }
 
+.notification-for-old-browser-user img {
+  float: left;
+  margin-top: -5px;
+  margin-right: 10px;
+  margin-left: 20px;
+  vertical-align: top;
+}
+
 .notification-for-old-browser-user a {
   color: #fff;
   text-decoration: none;
