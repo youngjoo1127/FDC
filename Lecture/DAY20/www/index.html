@@ -41,32 +41,34 @@
   <script src="lib/detectizr.min.js"></script>
 </head>
 <body>
-<!--[if lte IE 9]>
-<p class="col-12 notification-for-old-browser-user">
-  <img src="images/browsers.png" alt="모던 웹 브라우저" width="281" height="56">
-  사용중인 브라우저는 오래된 버전의 브라우저로 보안 및 성능 문제가 있을 수 있습니다.<br>
-  <a href="http://www.whatbrowser.org/intl/ko/" target="_blank">최신 브라우저로 업그레이드</a> 하시면
-보다 빠르고 안전하게 웹을 이용하실 수 있습니다.</p>
-<![endif]-->
-
   <header class="page-header">
     <div class="container">
+      <!--[if lte IE 9]>
+      <div class="row">
+        <p class="col-10 notification-for-old-browser-user">
+          <img src="images/browsers.png" alt="모던 웹 브라우저" width="281" height="56">
+          사용중인 브라우저는 오래된 버전의 브라우저로 보안 및 성능 문제가 있을 수 있습니다.
+          <a href="http://www.whatbrowser.org/intl/ko/" target="_blank">최신 브라우저로 업그레이드</a> 하시면
+        보다 빠르고 안전하게 웹을 이용하실 수 있습니다.</p>
+      </div>
+      <![endif]-->
       <div class="row">
         <!-- .brand -->
         <h1 class="col-2 brand">
-          <a class="Logo-UB-OneQ ir" href="http://ub-oneq.com/">
-            UB OneQ Home
+          <!-- <a class="Logo-UB-OneQ ir" href="/">
+            UB One Q Home -->
             <!-- <img src="images/Logo-UB-OneQ.png" alt="UB OneQ Home" width="158" height="50"> -->
+          <a class="Logo-UB-OneQ" href="/" aria-label="UB One Q Home">
           </a>
         </h1>
         <!-- // .brand -->
         <!-- .navi -->
         <nav class="col-4 push-4 last navi">
           <ul class="row">
-            <li class="col-1"><a href="" class="active">특징</a></li>
-            <li class="col-1"><a href="">주요기능</a></li>
-            <li class="col-1"><a href="">설치요건</a></li>
-            <li class="col-1 last"><a href="">DOWN</a></li>
+            <li class="col-1"><a href="#" class="active">특징</a></li>
+            <li class="col-1"><a href="#">주요기능</a></li>
+            <li class="col-1"><a href="#">설치요건</a></li>
+            <li class="col-1 last"><a href="#" aria-label="UB One Q Download">DOWN</a></li>
           </ul>
         </nav>
         <!-- // .navi -->
