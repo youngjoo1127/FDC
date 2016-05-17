@@ -1,0 +1,52 @@
+.Headline-UB-OneQ, .icon-arow-up, .icon-box-email-1, .icon-box-email, .icon-box-exel, .icon-box-network, .Logo-UB-OneQ, .ubcare{
+	background: url(sprites.png) no-repeat;
+}
+
+.Headline-UB-OneQ{
+	background-position: 0 0;
+	width: 286px;
+	height: 51px;
+}
+
+.icon-arow-up{
+	background-position: -300px 0;
+	width: 17px;
+	height: 10px;
+}
+
+.icon-box-email-1{
+	background-position: -173px -293px ;
+	width: 170px;
+	height: 170px;
+}
+
+.icon-box-email{
+	background-position: 0 -293px ;
+	width: 170px;
+	height: 170px;
+}
+
+.icon-box-exel{
+	background-position: -173px -120px ;
+	width: 170px;
+	height: 170px;
+}
+
+.icon-box-network{
+	background-position: 0 -120px ;
+	width: 171px;
+	height: 170px;
+}
+
+.Logo-UB-OneQ{
+	background-position: 0 -60px ;
+	width: 158px;
+	height: 50px;
+}
+
+.ubcare{
+	background-position: -300px -15px ;
+	width: 67px;
+	height: 14px;
+}
+
