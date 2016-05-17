@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/*! style.css © yamoo9.net, 2016 */
+
+/**
+ * ------------------------------------------
+ * 오래된 브라우저 사용자에게 최신 브라우저 업데이트 알림
+ * ------------------------------------------ */
+.notification-for-old-browser-user {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  margin: 0;
+  padding: 1em;
+  background-color: #303030;
+  background-color: hsla(0, 0%, 19%, 0.35);
+  color: #fff;
+}
+
+.notification-for-old-browser-user a {
+  color: #34c0ff;
+  text-decoration: none;
+}
+
+html {
+  background: #ffd219 url("../images/demo-bg.jpg") no-repeat center top;
+}
