@@ -32,8 +32,61 @@
   font-weight: bold;
 }
 
-.demo-bg {
-  min-height: 100vh;
-  background: #ffd219 url("../images/demo-bg.jpg") no-repeat center top;
-  background-size: cover;
+/**
+ * --------------------------------
+ * UB OneQ 컬러 세트
+ * --------------------------------
+ * #63636c
+ * #85efff
+ * #479dd7
+ * #272d32
+ * #f9f9f9
+ * #4e575f
+ * #4393c9
+ * #54555f
+ * #ebf3f9
+ * #9d9fa5
+ * #54545e
+ * #e5e9ec
+ * ----------------------------- */
+
+/**
+ * --------------------------------
+ * 페이지 디자인
+ * ----------------------------- */
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 100;
+}
+
+/**
+ * --------------------------------
+ * 헤더 디자인
+ * ----------------------------- */
+.page-header {
+  background-color: #63636c;
+}
+
+.page-header .brand {
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+
+/**
+ * --------------------------------
+ * .navi
+ * ----------------------------- */
+.navi ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.navi li {
+  text-align: center;
+}
+
+.navi a {
+  text-decoration: none;
+  color: #fafafa;
 }
