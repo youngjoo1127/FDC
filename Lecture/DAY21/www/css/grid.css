@@ -161,7 +161,7 @@
  }
 
  .container.guide:hover:before, .container.guide:hover::before, .container.show-guide:before, .container.show-guide::before, .grid.guide:hover:before, .grid.guide:hover::before, .grid.show-guide:before, .grid.show-guide::before {
-   height: 100vh;
+   height: 200vh;
  }
 
  .row:after, .row::after, .clearfix:after, .clearfix::after {

@@ -57,6 +57,11 @@
   color: #fff;
 }
 
+.unselect {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
 /**
  * --------------------------------
  * 페이지 디자인
@@ -136,7 +141,9 @@ body {
 .banner-headline {
   width: 286px;
   height: 51px;
-  background: url("../images/Headline-UB-OneQ.png") no-repeat;
+  padding-top: 232px;
+  background: url("../images/Headline-UB-OneQ.png") no-repeat left bottom;
+  margin-bottom: 70px;
 }
 
 .banner-message {
@@ -148,13 +155,14 @@ body {
 
 .banner-button {
   border: none;
-  padding: 1.666666667em 2.916666667em;
+  padding: 1.58em 2.85em;
   font-size: 24px;
   line-height: 1;
   text-transform: uppercase;
   font-weight: 400;
   background: #479dd7;
   color: #fff;
+  margin-top: 8px;
 }
 
 /**
@@ -176,4 +184,3 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 30em) {
     background-image: url("../images/Headline-UB-OneQ@2x.png");
   }
 }
-
