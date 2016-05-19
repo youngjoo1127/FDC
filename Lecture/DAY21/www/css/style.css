@@ -43,6 +43,20 @@
  * #e5e9ec
  * ----------------------------- */
 
+
+/**
+ * --------------------------------
+ * 사용자 인터페이스(UI) 디자인
+ * ----------------------------- */
+::-moz-selection {
+  background: #63636c;
+  color: #fff;
+}
+::selection {
+  background: #63636c;
+  color: #fff;
+}
+
 /**
  * --------------------------------
  * 페이지 디자인
@@ -110,10 +124,56 @@ body {
 
 /**
  * --------------------------------
- * 슬라이더 디자인
+ * 배너 디자인
  * ----------------------------- */
-.slider {
+.banner {
   height: 810px;
   background: url("../images/slider-bg.jpg") no-repeat center -90px;
   background-size: cover;
+  letter-spacing: -0.01em;
 }
+
+.banner-headline {
+  width: 286px;
+  height: 51px;
+  background: url("../images/Headline-UB-OneQ.png") no-repeat;
+}
+
+.banner-message {
+  font-size: 48px;
+  font-weight: 100;
+  line-height: 1.354166667;
+  color: #272d32;
+}
+
+.banner-button {
+  border: none;
+  padding: 1.666666667em 2.916666667em;
+  font-size: 24px;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 400;
+  background: #479dd7;
+  color: #fff;
+}
+
+/**
+ * --------------------------------
+ * 고 해상도 대응 처리 방법
+ * ----------------------------- */
+/* CSS3 미디워쿼리 활용 - 레티나 디스플레이 대응 */
+/*
+ * 고해상도 디스플레이(@2x)
+ */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 30em),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 30em),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 30em),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 30em),
+only screen and (                min-resolution: 192dpi) and (min-width: 30em),
+only screen and (                min-resolution: 2dppx)  and (min-width: 30em) {
+  .banner-headline {
+    background-image: url("../images/Headline-UB-OneQ@2x.png");
+  }
+}
+
