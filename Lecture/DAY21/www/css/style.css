@@ -163,6 +163,13 @@ body {
   background: #479dd7;
   color: #fff;
   margin-top: 8px;
+  transition: transform 0.3s, box-shadow 0.2s 0.15s;
+}
+
+.banner-button:hover {
+  background: #57a9ec;
+  box-shadow: 0px 3px 5px 2px hsla(0,0%,0%,.25);
+  transform: scale(1.04);
 }
 
 /**
