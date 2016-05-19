@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/*! style.css © yamoo9.net, 2016 */
+
+/**
+ * ------------------------------------------
+ * 오래된 브라우저 사용자에게 최신 브라우저 업데이트 알림
+ * ------------------------------------------ */
+.notification-for-old-browser-user {
+  margin: 0;
+  padding: 1em 0;
+  border-bottom: 1px solid #979793;
+  background-color: #64646d;
+  color: #dbdbe5;
+}
+.notification-for-old-browser-user img {
+  float: left;
+  margin-top: -5px;
+  margin-right: 20px;
+  /* margin-left: 20px; */
+  vertical-align: top;
+}
+.notification-for-old-browser-user a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/**
+ * --------------------------------
+ * UB OneQ 컬러 세트
+ * --------------------------------
+ * #63636c
+ * #85efff
+ * #479dd7
+ * #272d32
+ * #f9f9f9
+ * #4e575f
+ * #4393c9
+ * #54555f
+ * #ebf3f9
+ * #9d9fa5
+ * #54545e
+ * #e5e9ec
+ * ----------------------------- */
+
+/**
+ * --------------------------------
+ * 페이지 디자인
+ * ----------------------------- */
+body {
+  font-family: "Noto Sans KR", "Nanum Gothic", Dotum, sans-serif;
+  font-weight: 300;
+}
+
+/**
+ * --------------------------------
+ * 헤더 디자인
+ * ----------------------------- */
+.page-header {
+  background-color: #63636c;
+}
+.page-header .brand {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.page-header .brand a {
+  display: block;
+}
+.ir {
+  overflow: hidden;
+  text-indent: -9999em;
+}
+
+/**
+ * --------------------------------
+ * .navi
+ * ----------------------------- */
+.navi {
+  margin-top: 36px;
+}
+.navi ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.navi li {
+  text-align: center;
+}
+.navi a {
+  display: block;
+  text-decoration: none;
+  color: #fafafa;
+  padding-bottom: 10px;
+}
+.navi a:hover {
+  border-bottom: 2px solid #b7b7cc;
+  color: #b7b7cc;
+}
+.navi a.active {
+  border-bottom: 2px solid #fff;
+  color: #fafafa;
+}
+.navi li:last-child a {
+  color: #85efff;
+}
+.navi li:last-child a:hover,
+.navi li:last-child a.active {
+  border-bottom-color: #85efff;
+}
+
+/**
+ * --------------------------------
+ * 슬라이더 디자인
+ * ----------------------------- */
+.slider {
+  height: 810px;
+  background: url("../images/slider-bg.jpg") no-repeat center -90px;
+  background-size: cover;
+}
