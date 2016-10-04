@@ -36,10 +36,51 @@ yamoo9's Personal Website.
 
 ### Make Directories & Files
 
-- [ ] `index.html`
-- [ ] `css/style.css`
-- [ ] `images/`
+- [v] `index.html`
+- [v] `css/style.css`
+- [v] `images/`
 ```
+
+##### 작성한 파일
+
+```html
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>yamoo9.github.io &gt; yamoo9's Personal WebPage</title>
+    <!-- Link CSS File -->
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+
+    <!-- heading 1 -->
+    <h1>Lecture for Web Design</h1>
+
+  </body>
+</html>
+```
+
+```css
+body {
+  margin: 0;
+  height: 100vh;
+  background: url("../images/photo-bg-1920.jpg") no-repeat center;
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 100;
+  letter-spacing: 0.23em;
+}
+```
+
+##### 변경 사항 Commit > Push(Sync)
 
 -
 
@@ -49,3 +90,8 @@ yamoo9's Personal Website.
 
 #### 5. Setting Photoshop for Web Design
 
+---
+
+## Homework
+
+- Comming Soon Page Design [ PSD | Sketch ]
