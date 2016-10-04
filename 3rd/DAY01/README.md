@@ -2,30 +2,34 @@
 
 # DAY01
 
-### Front-End Env.
+### Front-End Environment
 
 #### 1. Sign in [GitHub.com](http://github.com/)
 
-__github.com__에 가입
+버전 관리도구: __github.com__에 가입
 
 -
 
-#### 2. Install [Editor](http://sublimetext.com/3)
+#### 2. Install [Sublime Text Editor](http://sublimetext.com/3)
 
-__sublimetext__ 설치 (각 운영체제에 맞춰 설치)
+텍스트 에디터 __sublimetext__ 설치 (각 운영체제에 맞춰 설치)
 
 -
 
 #### 3. Setting [GitHub Page](https://pages.github.com/)
 
-1. `{username}.github.io` 저장소 생성
+GitHub 페이지(Page) 저장소 추가/파일생성/커밋/싱크
+
+1. [`{username}.github.io`](https://github.com/yamoo9/yamoo9.github.io) 저장소 생성
 1. [`github for {OS}`](https://desktop.github.com/) GUI 도구 설치
 1. 온라인 저장소 복제(Clone Online GitHub Repository)
 1. `README.md` 생성/수정
 1. 변경사항 커밋(Commit)
 1. 커밋 싱크(Sync)
 
-##### README.md
+##### README.md 파일 추가
+
+`README.md` 문서는 GitHub 저장소를 소개하는 내용을 출력하는 [Markdown](https://daringfireball.net/projects/markdown/) 문서
 
 ```md
 # yamoo9.github.io
@@ -41,7 +45,9 @@ yamoo9's Personal Website.
 - [v] `images/`
 ```
 
-##### 작성한 파일
+##### 수업 과정에서 작성한 파일
+
+`index.html`
 
 ```html
 <!DOCTYPE html>
@@ -61,6 +67,8 @@ yamoo9's Personal Website.
   </body>
 </html>
 ```
+
+`css/style.css`
 
 ```css
 body {
@@ -82,16 +90,14 @@ h1 {
 
 ##### 변경 사항 Commit > Push(Sync)
 
--
+변경 사항이 발생할 때 마다, 내용을 요약(Summary) 정리하여 `commit` 메시지 추가.
 
-#### 4. Front-End Develop Env.
-
--
-
-#### 5. Setting Photoshop for Web Design
+`commit` 완료 후, `sync`하여 로컬 파일을 온라인 GitHub 저장소에 업데이트.
 
 ---
 
 ## Homework
 
-- Comming Soon Page Design [ PSD | Sketch ]
+__Comming Soon__ Page Design [ PSD | Sketch ]
+
+![](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/ticker-coming-soon-html-website-template.jpg)
