@@ -12,7 +12,7 @@
 
 #### 2. Install [Sublime Text Editor](http://sublimetext.com/3)
 
-텍스트 에디터 __sublimetext__ 설치 (각 운영체제에 맞춰 설치)
+텍스트 에디터: __sublimetext__ 설치 (각 운영체제에 맞춰 설치)
 
 -
 
@@ -40,9 +40,9 @@ yamoo9's Personal Website.
 
 ### Make Directories & Files
 
-- [v] `index.html`
-- [v] `css/style.css`
-- [v] `images/`
+- [x] `index.html`
+- [x] `css/style.css`
+- [x] `images/`
 ```
 
 ##### 수업 과정에서 작성한 파일
