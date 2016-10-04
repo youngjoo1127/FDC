@@ -18,7 +18,7 @@ __sublimetext__ 설치 (각 운영체제에 맞춰 설치)
 
 #### 3. Setting [GitHub Page](https://pages.github.com/)
 
-1. `{username}.github.com` 저장소 생성
+1. `{username}.github.io` 저장소 생성
 1. [`github for {OS}`](https://desktop.github.com/) GUI 도구 설치
 1. 온라인 저장소 복제(Clone Online GitHub Repository)
 1. `README.md` 생성/수정
