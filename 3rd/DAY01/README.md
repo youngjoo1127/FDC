@@ -27,7 +27,7 @@
 
 	1. __단축키 사용__ :<br/><br/>
 	![단축키 검색바 띄우기](https://github.com/yamoo9/fastcampus-front-end-design/blob/master/Assets/install-package.png) 
-      - `Windows: Ctrl + Shift + P`, `IOS: Commond + Shift + P` 클릭
+      - `Windows: Ctrl + Shift + P`, `Mac: Commond + Shift + P` 클릭
       - 검색바에 `Package Control: Install Package` 키워드 작성 후 Enter 클릭
       - `Plugin Name` 작성 후 Enter 클릭 - 설치 완료<br/><br/>
 
