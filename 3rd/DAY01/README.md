@@ -19,14 +19,16 @@
 	- [Packcontrol Control 설치방법](https://packagecontrol.io/installation) 링크 클릭 후 이동<br/><br/>
 
 1. __Sublime Text Plugin 검색 및 설치 방법__
-	1. __메뉴 사용__ :
+	1. __메뉴 사용__ :<br/><br/>
+	![Preferences/Package Control 위치](https://github.com/yamoo9/fastcampus-front-end-design/blob/master/Assets/package-control.png)
       - 메뉴바의 `Preferences/Package Control` 클릭
-      - 검색바에 `Install Package` 키워드 작성 후 Enter 실행
-      - `Plugin Name` 작성 후 Enter 클릭 - 설치 완료
+      - 검색바에 `Install Package` 키워드 작성 후 Enter 클릭
+      - `Plugin Name` 작성 후 Enter 클릭 - 설치 완료<br/><br/>
 
-	1. __단축키 사용__ :
+	1. __단축키 사용__ :<br/><br/>
+	![단축키 검색바 띄우기](https://github.com/yamoo9/fastcampus-front-end-design/blob/master/Assets/install-package.png) 
       - `Windows: Ctrl + Shift + P`, `IOS: Commond + Shift + P` 클릭
-      - 검색바에 `Install Package` 키워드 작성 후 Enter 실행
+      - 검색바에 `Package Control: Install Package` 키워드 작성 후 Enter 클릭
       - `Plugin Name` 작성 후 Enter 클릭 - 설치 완료<br/><br/>
 
 1. __유용한 Sublime Text Plugin Name__ (아래 `Plugin Name`을 검색 후 2)번을 참고하여 설치하세요.)
