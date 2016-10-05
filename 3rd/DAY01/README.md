@@ -4,19 +4,40 @@
 
 ### Front-End Environment
 
-#### 1. Sign in [GitHub.com](http://github.com/)
+### 1. Sign in [GitHub.com](http://github.com/)
 
 버전 관리도구: __github.com__에 가입
 
 -
 
-#### 2. Install [Sublime Text Editor](http://sublimetext.com/3)
+### 2. Install [Sublime Text Editor](http://sublimetext.com/3)
 
-텍스트 에디터: __sublimetext__ 설치 (각 운영체제에 맞춰 설치)
+#### 1) 텍스트 에디터: __sublimetext__ 설치 (각 운영체제에 맞춰 설치)
 
--
+#### 2) Sublime Text Package Control & Plugin 설치 방법
+1. __Package Control 설치 방법__
+	- [Packcontrol Control 설치방법](https://packagecontrol.io/installation) 링크 클릭 후 이동<br/><br/>
 
-#### 3. Setting [GitHub Page](https://pages.github.com/)
+1. __Sublime Text Plugin 검색 및 설치 방법__
+	1. __메뉴 사용__ :
+      - 메뉴바의 `Preferences/Package Control` 클릭
+      - 검색바에 `Install Package` 키워드 작성 후 Enter 실행
+      - `Plugin Name` 작성 후 Enter 클릭 - 설치 완료
+
+	1. __단축키 사용__ :
+      - `Windows: Ctrl + Shift + P`, `IOS: Commond + Shift + P` 클릭
+      - 검색바에 `Install Package` 키워드 작성 후 Enter 실행
+      - `Plugin Name` 작성 후 Enter 클릭 - 설치 완료<br/><br/>
+
+1. __유용한 Sublime Text Plugin Name__ (아래 `Plugin Name`을 검색 후 2)번을 참고하여 설치하세요.)
+	- [AdvancedNewFile](https://packagecontrol.io/packages/AdvancedNewFile) - 빠르고 편리하게 폴더나 파일을 만드는 플러그인
+	- [Material Theme](https://packagecontrol.io/packages/Material%20Theme) - Sublime Text 테마 설치
+	- [Emmet](https://packagecontrol.io/packages/Emmet) - 젠코딩, 마크업 속도를 향상 시켜주는 플러그인
+	- [AutoFileName](https://packagecontrol.io/packages/AutoFileName) - 자동으로 파일의 위치를 표시
+	- [ConvertToUTF8](https://packagecontrol.io/packages/ConvertToUTF8) - 인코딩 오류로 인한 한글 깨짐 해결
+	- [IMEsupport](https://packagecontrol.io/packages/IMESupport) - 한글 입력 시 발생하는 문제 해결
+
+### 3. Setting [GitHub Page](https://pages.github.com/)
 
 GitHub 페이지(Page) 저장소 추가/파일생성/커밋/싱크
 
