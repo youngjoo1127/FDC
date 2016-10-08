@@ -13,6 +13,7 @@
 
 -
 
+
 ### 웹 디자인 환경 분석/이해
 
 시스템이 기반한 디자인 방법론 [ `Typography` / `Grid System` / `Golden Ratio Rule` ]
@@ -20,6 +21,21 @@
 ![designer-coding-course-01](../../Assets/Designers Coding/designer-coding-course-01.png)
 ![designer-coding-course-02](../../Assets/Designers Coding/designer-coding-course-02.png)
 ![designer-coding-course-03](../../Assets/Designers Coding/designer-coding-course-03.png)
+
+1. **스크린 화면 비율**
+	- 영상, TV : `4:3` 비율
+	- 모니터, 와이트 뷰 : `16:9` 비율
+	- 영화관 : `21:9` 비율
+	- N Screen : 화면의 비율이 규제되지 않음 (N은 특정되지 않은 수 `n항(nth term)`을 의미)<br/><br/>
+	
+1. **빛의 삼원색**<br/><br/>
+ ![CMYK](http://image.prntscr.com/image/c325f83914204d11ae8849f94f64a5b2.png "CMYK" "width:400px;height:auto")
+	- **C** (Cyan), **M** (Magenta), **Y** (Yellow), **K** (blacK) => 인쇄, 프린트 사용
+	<br/><br/>
+1. **염료의 삼원색**<br/><br/>
+ 	![RGB](http://image.prntscr.com/image/82029022c89f4c1188ae7edee8e0530e.png "RGB" "width:400px;height:auto")
+	- **R** (Red), **G** (Green), **B** (Blue) => 웹, 스크린 사용<br/>
+	 (웹 디자인 시 Photoshap 환경 설정을 **RGB** 모드로 변경)
 
 -
 
@@ -94,3 +110,4 @@ UI Kit의 개념은 '패턴 라이브러리', 'UI 스타일 가이드', 'UI 가�
 [GitHub Page에 도메인 네임 연결](http://blog.saltfactory.net/github/setting-domain-name-in-github-pages-via-cname.html)
 
 ![github-social-coding](../../Assets/github-social-coding.jpg)
+
