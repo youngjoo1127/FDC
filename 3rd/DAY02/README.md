@@ -29,10 +29,10 @@
 	- N Screen : 화면의 비율이 규제되지 않음 (N은 특정되지 않은 수 `n항(nth term)`을 의미)<br/><br/>
 	
 1. **염료의 삼원색**<br/><br/>
- ![CMYK](http://image.prntscr.com/image/c325f83914204d11ae8849f94f64a5b2.png "CMYK" "width:400px;height:auto")
-	- **C** (Cyan), **M** (Magenta), **Y** (Yellow), **K** (blacK) => 인쇄, 프린트 사용
+ ![CMYK](http://image.prntscr.com/image/c325f83914204d11ae8849f94f64a5b2.png "CMYK" "width:400px;height:auto")<br/>
+	- **C** (Cyan), **M** (Magenta), **Y** (Yellow), **K** (blacK) => 인쇄, 프린트 사용<br/><br/>
 1. **빛의 삼원색**<br/><br/>
- 	![RGB](http://image.prntscr.com/image/82029022c89f4c1188ae7edee8e0530e.png "RGB" "width:400px;height:auto")
+ ![RGB](http://image.prntscr.com/image/82029022c89f4c1188ae7edee8e0530e.png "RGB" "width:400px;height:auto")<br/>
 	- **R** (Red), **G** (Green), **B** (Blue) => 웹, 스크린 사용<br/>
 	 (웹 디자인 시 Photoshap 환경 설정을 **RGB** 모드로 변경)
 
