@@ -5,7 +5,7 @@ body {
   /* width 값을 뺀 나머지 공간을 좌우로 나눈다. */
   margin: 0 auto;
   /* 래딩(Leading) 간격을 패턴으로 배경이미지로 그림 */
-  /*background: url("../images/leading-24.png");*/
+  background: url("../images/leading-24.png");
   /* 글자 모양(글꼴) */
   font-family: "Spoqa Han Sans";
   /* 행간 line height */
