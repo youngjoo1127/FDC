@@ -6,17 +6,52 @@ body {
 /* 사용자 정의 스타일 오버라이딩(덮어쓰기) */
 /* Design = 설계 */
 
-/*본문 설계(Design)*/
+/* 본문 설계(Design)
+ * 글자 크기 16px
+ * 행간 비율 1.5
+ **/
 body {
   font-family: "Spoqa Han Sans", Dotum, Gulim, Sans-Serif;
   /* 글자 크기 */
-  font-size: 24px;
+  font-size: 1em;
   /* 글자 줄 사이 간격 */
-  line-height: 1.7; /* 40.8px */
+  line-height: 1.5; /* 24px */
+  /* 글자 사이 간격 */
+  letter-spacing: -0.04em;
   /* 글자 색상 */
   color: #121003;
   /* Leading 배경 패턴 */
-  background: url("../images/leading-41.png");
+  background: url("../../DAY03/images/leading-24.png");
+}
+
+/* 단락 설계 */
+p {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+
+/* 제목 설계
+ * 타입 배율 x1.25
+ **/
+h6 {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  font-size: 1em; /* 16px = 1em */
+  line-height: 1.5em; /* 24px */
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 1.2em;
+  font-size: 1.25em; /* 1*1.25em */
+  line-height: 1.2;
+}
+
+h4 {
+  margin-top: 0;
+  margin-bottom: 0.96em;
+  font-size: 1.5625em; /* 1*1.25*1.25em */
+  line-height: 1.92em;
 }
 
 /* 레이아웃 설계 */
