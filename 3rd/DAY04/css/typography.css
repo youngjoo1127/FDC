@@ -36,7 +36,7 @@ p {
 h6 {
   margin-top: 0;
   margin-bottom: 1.5em;
-  font-size: 1em; /* 16px = 1em */
+  font-size: 1em;   /* 16px = 1em */
   line-height: 1.5; /* 24px */
   font-weight: 700;
 }
