@@ -9,7 +9,7 @@ body {
   /* 글자 모양(글꼴) */
   font-family: "Spoqa Han Sans";
   /* 행간 line height */
-  line-height: 1.7; /* x1.5 */
+  line-height: 1.5; /* x1.5 */
   /* 글자 사이 간격 letter spacing */
   letter-spacing: -0.04em;
 }

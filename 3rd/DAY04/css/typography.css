@@ -1,0 +1,27 @@
+/* 브라우저 기본 스타일 초기화 */
+body {
+  margin: 0;
+}
+
+/* 사용자 정의 스타일 오버라이딩(덮어쓰기) */
+/* Design = 설계 */
+
+/*본문 설계(Design)*/
+body {
+  font-family: "Spoqa Han Sans", Dotum, Gulim, Sans-Serif;
+  /* 글자 크기 */
+  font-size: 24px;
+  /* 글자 줄 사이 간격 */
+  line-height: 1.7; /* 40.8px */
+  /* 글자 색상 */
+  color: #121003;
+  /* Leading 배경 패턴 */
+  background: url("../images/leading-41.png");
+}
+
+/* 레이아웃 설계 */
+body {
+  width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+}
