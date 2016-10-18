@@ -41,10 +41,8 @@ var fontSize = (function() {
     return (type_scale, limit) => {
         type_scale = type_scale || 1.25;
         limit = limit || 6;
-        var headings_map = {};
-        var headings = 'h1 h2 h3 h4 h5 h6'.split(' ');
-        headings = headings.slice(0, limit);
-        console.log(headings.length);
+        var headings_map = {},
+            headings = 'h1 h2 h3 h4 h5 h6'.split(' ').slice(0, limit);
         headings.forEach(function(heading, index) {
             headings_map[heading] = square(type_scale, headings.length - index);
         });
