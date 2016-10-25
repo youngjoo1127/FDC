@@ -17,6 +17,7 @@ body {
 }
 
 .brand {
+  margin-top: 0;
   margin-left: 10px;
   padding-top: 55px;
 }
