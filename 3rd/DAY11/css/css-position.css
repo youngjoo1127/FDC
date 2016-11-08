@@ -13,12 +13,25 @@ img {
   background: #212021;
 }
 
-.product-hanger-chip {
+.product-hanger-chip {background: #7b1828;position: relative;left: 90px;bottom: -30px;box-shadow: -2px 10px 10px 1px rgba(105, 73, 26, 0.4);}
+.product-heart-love {background: #f3d300;}
+.product-cactus {background: #426408;position: relative;top: -20px;right: -60px;}
 
+
+.product-heart-love img {
+  position: relative;
+  top: 40px;
+  left: 17px;
 }
-.product-heart-love {
 
+.product-hanger-chip img {
+  position: relative;
+  top: 28px;
+  right: -27px;
 }
-.product-cactus {
 
+.product-cactus img {
+  position: relative;
+  bottom: -31px;
+  left: 126px;
 }
