@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta charset="UTF-8">
+  <title>CSS Album Cover Design</title>
+  <style>
+    body {margin: 0;}
+    .demo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: radial-gradient(circle, #7e7e7e, #363636);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="demo-container">
+    <div class="album">
+      <img
+        class="album-cover"
+        src="images/Cover.jpg"
+        srcset="images/Cover@2x.jpg 2x"
+        alt="cover"
+        width="244"
+        height="244">
+      <img
+        class="album-vinyl"
+        src="images/vinyl.png"
+        src="images/vinyl@2x.png"
+        alt="disk"
+        width="42"
+        height="245">
+      <img
+        class="album-disk"
+        src="images/disk.png"
+        src="images/disk@2x.png"
+        alt="disk"
+        width="243"
+        height="243">
+    </div>
+  </div>
+
+</body>
+</html>
