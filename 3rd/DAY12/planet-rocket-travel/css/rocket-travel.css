@@ -1,17 +1,48 @@
+@charset "utf-8";
+
 body {
   margin: 0;
-}
-
-.Rocket {
-  height: 113px;
-  width: 50px; /* 10장의 이미지가 합쳐진 배경 이미지 */
-  background: url("../assets/rocket.png");
 }
 
 .Space {
   position: relative;
   height: 7700px;
   background: url("../assets/space-bg.jpg") center top;
+}
+
+/* 이미지 업스케일링: http://waifu2x.udp.jp/ */
+.Rocket {
+  position: fixed;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  height: 230px;
+  /* 10장의 이미지가 합쳐진 배경 이미지 */
+  width: 100px;
+  margin-left: -50px;
+  margin-top: -115px;
+  background: url("../assets/rocket_2x.png");
+  background-position-x: -900px;
+}
+
+.Rocket.take-off {
+  animation: Rocket 1s steps(10) infinite;
+}
+
+/* Browser Support: [Desktop] IE 10+, [Mobile] */
+/* Rocket Animation Design */
+@keyframes Rocket {
+  0% {
+    background-position-x: 0px;
+    transform: scale(1) translateY(0);
+  }
+  50% {
+    transform: scale(0.95) translateY(-15px);
+  }
+  100% {
+    background-position-x: -1000px;
+    transform: scale(1) translateY(0);
+  }
 }
 
 .Moon {

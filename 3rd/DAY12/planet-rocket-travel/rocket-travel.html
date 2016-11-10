@@ -26,5 +26,16 @@
     <div title="달" class="Moon"></div>
   </div>
 
+<script>
+window.onscroll = function() {
+  var r = document.querySelector('.Rocket');
+  console.log(r, this.scrollY);
+  if ( this.scrollY < 6800 ) {
+    r.classList.add('take-off');
+  } else {
+    r.classList.remove('take-off');
+  }
+}
+</script>
 </body>
 </html>
