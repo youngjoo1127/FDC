@@ -2,6 +2,12 @@ body {
   margin: 0;
 }
 
+.Rocket {
+  height: 113px;
+  width: 50px; /* 10장의 이미지가 합쳐진 배경 이미지 */
+  background: url("../assets/rocket.png");
+}
+
 .Space {
   position: relative;
   height: 7700px;
@@ -25,7 +31,8 @@ body {
   width: 400px;
   height: 400px;
   margin-left: -200px;
-  background: #000;
+  background: url("../assets/planets.png");
+  animation: planet 2s infinite;
 }
 
 /* Each Planet Module */
@@ -34,28 +41,37 @@ body {
 }
 .Ｍercury {
   top: 800px;
+  background-position: -400px 0;
 }
 .Venus {
   top: 1500px;
+  background-position: -800px 0;
 }
 .Earth {
   top: 2200px;
+  background-position: -1200px 0;
 }
 .Ｍars {
   top: 2900px;
+  background-position: -1600px 0;
 }
 .Jupiter {
   top: 3600px;
+  background-position: -2000px 0;
 }
 .Saturn {
   top: 4300px;
+  background-position: -2400px 0;
 }
 .Uranus {
   top: 5000px;
+  background-position: -2800px 0;
 }
 .Neptune {
   top: 5700px;
+  background-position: -3200px 0;
 }
 .Pluto {
   top: 6400px;
+  background-position: -3600px 0;
 }
