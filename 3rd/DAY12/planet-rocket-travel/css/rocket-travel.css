@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+
+.Space {
+  position: relative;
+  height: 7700px;
+  background: url("../assets/space-bg.jpg") center top;
+}
+
+.Moon {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 960px;
+  height: 503px;
+  margin-left: -480px;
+  background: url("../assets/moon.png");
+}
+
+/* Common Planet Module */
+.Planent {
+  position: absolute;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-left: -200px;
+  background: #000;
+}
+
+/* Each Planet Module */
+.Sun {
+  top: 100px;
+}
+.Ｍercury {
+  top: 800px;
+}
+.Venus {
+  top: 1500px;
+}
+.Earth {
+  top: 2200px;
+}
+.Ｍars {
+  top: 2900px;
+}
+.Jupiter {
+  top: 3600px;
+}
+.Saturn {
+  top: 4300px;
+}
+.Uranus {
+  top: 5000px;
+}
+.Neptune {
+  top: 5700px;
+}
+.Pluto {
+  top: 6400px;
+}
