@@ -4,22 +4,56 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta charset="UTF-8">
   <title>거터(Gutter)가 있는 CSS 그리드 시스템</title>
+
+  <!-- Roboto Webfont -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+  <!-- System Style Files -->
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/GS-1200.css">
+  <!-- Page Design File -->
   <style>
+    html {
+      font-size: 10px;
+    }
     .banner-goose {
       height: 340px;
       background: #f95318;
+      font-family: "Roboto", Helvetica, Arial, Sans-Serif;
+    }
+    .banner-goose-headline,
+    .banner-goose-desc {
+      margin: 0; /* .banner-goose 내부 모든 요소의 공간 초기화 */
+    }
+    .banner-goose-image {
+      margin-left: 40px;
+    }
+    .banner-goose-headline {
+      color: #fff;
+      font-weight: 500;
+      font-size: 3.2rem;
+      letter-spacing: 0.1em; /* 100/1000 * 1em */
+      text-transform: uppercase; /* 모든 글자 대문자화 */
     }
   </style>
 </head>
-<body>
+<body class="show-grid overlay">
 
   <div class="container">
     <div class="row">
       <div class="col-8 banner-goose">
         <div class="col-3">
-          <img src="images/banner-goose/photo-mans.png" alt="" width="272" height="340">
+          <img
+            class="banner-goose-image"
+            src="images/banner-goose/photo-mans.png"
+            srcset="images/banner-goose/photo-mans@2x.png 2x"
+            alt="Two Mans"
+            width="272"
+            height="340">
+        </div>
+        <div class="col-4">
+          <h1 class="banner-goose-headline">Canada Goose</h1>
+          <p class="banner-goose-desc">In 1957, in Toronto, Canada Goose brand has launched the production of stylish outerwear for extreme cold climate. Today it is high-quality, hand-stitched coats and jackets, worn on trips to Everest and research stations at the South pole.</p>
+          <a class="banner-goose-CTA" href="">choose</a>
         </div>
       </div>
     </div>

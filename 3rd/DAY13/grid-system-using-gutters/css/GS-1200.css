@@ -71,8 +71,10 @@
 .col-7 { width: 1020px; }
 .col-8 { width: 1170px; }
 
-[class*="col-"] [class*="col-"] {
+[class*="col-"] [class*="col-"]:first-child {
   margin-left: 0;
+}
+[class*="col-"] [class*="col-"]:last-child {
   margin-right: 0;
 }
 
