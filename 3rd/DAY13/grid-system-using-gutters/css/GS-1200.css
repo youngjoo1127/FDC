@@ -71,6 +71,11 @@
 .col-7 { width: 1020px; }
 .col-8 { width: 1170px; }
 
+[class*="col-"] [class*="col-"] {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 [class*="push-"],
 [class*="pull-"] {
   position: relative;
@@ -110,3 +115,22 @@
 .suffix-6 { margin-right: 915px;  }
 .suffix-7 { margin-right: 1065px; }
 .suffix-8 { margin-right: 1215px; }
+
+[class*="col-"] .prefix-1 { margin-left: 150px;  }
+[class*="col-"] .prefix-2 { margin-left: 300px;  }
+[class*="col-"] .prefix-3 { margin-left: 450px;  }
+[class*="col-"] .prefix-4 { margin-left: 600px;  }
+[class*="col-"] .prefix-5 { margin-left: 750px;  }
+[class*="col-"] .prefix-6 { margin-left: 900px;  }
+[class*="col-"] .prefix-7 { margin-left: 1050px; }
+[class*="col-"] .prefix-8 { margin-left: 1200px; }
+
+[class*="col-"] .suffix-1 { margin-right: 150px;  }
+[class*="col-"] .suffix-2 { margin-right: 300px;  }
+[class*="col-"] .suffix-3 { margin-right: 450px;  }
+[class*="col-"] .suffix-4 { margin-right: 600px;  }
+[class*="col-"] .suffix-5 { margin-right: 750px;  }
+[class*="col-"] .suffix-6 { margin-right: 900px;  }
+[class*="col-"] .suffix-7 { margin-right: 1065px; }
+[class*="col-"] .suffix-8 { margin-right: 1215px; }
+
