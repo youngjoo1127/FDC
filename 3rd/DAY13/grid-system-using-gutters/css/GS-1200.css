@@ -10,7 +10,17 @@
  */
 
 .show-grid {
-  background: linear-gradient(transparent 9px, hsla(0, 0%, 0%, 0.2) 9px);
+  position: relative;
+}
+
+.show-grid::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  background: linear-gradient(transparent 9px, hsla(0, 0%, 0%, 0.42) 9px);
   background-size: 1px 10px;
 }
 
@@ -29,6 +39,7 @@
   background: linear-gradient(90deg, transparent 15px, hsla(29, 100%, 64%, 0.3) 15px, hsla(49, 100%, 64%, 0.3) 135px, transparent 135px);
   background-size: 150px 1px;
 }
+.show-grid.overlay::before,
 .show-grid.overlay .container::before {
   z-index: 10000;
 }
