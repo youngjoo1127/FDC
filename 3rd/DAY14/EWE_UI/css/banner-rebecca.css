@@ -1,4 +1,6 @@
-/* rebecca */
+@charset "utf-8";
+
+/*! banner-rebecca.css © yamoo9.net, 2016 */
 .rebecca {
   position: relative;
   overflow: hidden;
@@ -38,6 +40,7 @@
   line-height: 1.1111;
   color: #171717;
 }
+
 .rebecca .slide-desc {
   margin-top: 15px;
   font-family: "Roboto";
@@ -46,10 +49,11 @@
   line-height: 1.5;
   color: #838383;
 }
+
 .rebecca .slide-link {
-  margin-top: 54px;
+  margin-top: 58px;
   display: inline-block;
-  padding: 1.5em 2.75em;
+  padding: 1.45em 2.75em;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 12px;
@@ -72,6 +76,7 @@
   height: 440px;
   background: #ddd;
 }
+
 .products-group-B {
   margin-top: 30px;
   height: 440px;
@@ -87,6 +92,7 @@
   text-align: center;
   transform: translateY(-50%);
 }
+
 .slide-controller button {
   width: 42px;
   height: 42px;
@@ -96,8 +102,15 @@
   background-color: transparent;
 }
 
-.slide-prev-button { margin-bottom: 5px; }
-.slide-next-button { margin-top: 2px; }
+.slide-prev-button {
+  margin-bottom: 5px;
+}
+
+.slide-next-button {
+  position: relative;
+  left: -2px;
+  margin-top: 5px;
+}
 
 .display-activation {
   font-family: "Roboto";
@@ -106,6 +119,7 @@
   letter-spacing: 0.01em;
   color: #878787;
 }
+
 .active-index {
   color: #171717;
 }
