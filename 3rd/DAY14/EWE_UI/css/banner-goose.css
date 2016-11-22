@@ -1,3 +1,15 @@
+@charset "utf-8";
+
+::-moz-selection {
+  background: #fff;
+  color: #f95318;
+}
+
+::selection {
+  background: #fff;
+  color: #f95318;
+}
+
 html {
   font-size: 10px;
 }

@@ -4,9 +4,9 @@
   global.addEventListener('keydown', function(e) {
     if ( e.keyCode === 71 && e.shiftKey ) {
       body.classList.toggle('show-grid');
-    }
-    if ( e.ctrlKey ) {
       body.classList.toggle('overlay');
     }
+    // if ( e.ctrlKey ) {
+    // }
   });
 })(this);
