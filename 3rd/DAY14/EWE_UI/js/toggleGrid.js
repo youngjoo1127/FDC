@@ -6,7 +6,5 @@
       body.classList.toggle('show-grid');
       body.classList.toggle('overlay');
     }
-    // if ( e.ctrlKey ) {
-    // }
   });
 })(this);
