@@ -1,0 +1,28 @@
+/* Fluid Image */
+/* Content Image: <img> */
+.rwd-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Background Image */
+.rwd-bg {
+  width: 100%;
+  background-size: cover;
+}
+
+.two-girls {
+  padding-top: 61.5384%; /* 720/1170*100 */
+  background: url("../images/photo.jpg");
+}
+
+@media
+  (-webkit-min-device-pixel-ratio: 2),
+  (min--moz-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx)
+{
+  .two-girls {
+    background: url("../images/photo@2x.jpg");
+  }
+}
