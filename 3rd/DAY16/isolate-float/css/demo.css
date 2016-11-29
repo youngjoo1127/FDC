@@ -71,17 +71,3 @@
   color: #61402a;
   text-shadow: none;
 }
-
-.rwd-crop-container {
-  overflow: hidden;
-  position: relative;
-  height: 500px;
-}
-
-.rwd-crop-content {
-  position: absolute;
-  left: 50%;
-  top: -120px;
-  height: auto;
-  transform: translateX(-50%);
-}
