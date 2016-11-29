@@ -30,3 +30,58 @@
     background-image: url("../images/shoes@2x.jpg");
   }
 }
+
+
+/**
+ * --------------------------------
+ * big-header
+ * ----------------------------- */
+.big-header {
+  position: relative;
+  height: 920px;
+  background-position: center top;
+  background-size: cover;
+}
+.big-header .headline {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1;
+  font-weight: 200;
+  font-size: 54px;
+  font-family: 'Amatic SC', cursive;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+.cagle {
+  background-image: url("../images/brooke-cagle-1327.jpg");
+}
+
+.meyer {
+  background-image: url("../images/aidan-meyer-1404.jpg");
+}
+
+.meyer .headline {
+  top: 50px;
+  color: #61402a;
+  text-shadow: none;
+}
+
+.rwd-crop-container {
+  overflow: hidden;
+  position: relative;
+  height: 500px;
+}
+
+.rwd-crop-content {
+  position: absolute;
+  left: 50%;
+  top: -120px;
+  height: auto;
+  transform: translateX(-50%);
+}
