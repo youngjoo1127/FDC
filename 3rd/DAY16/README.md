@@ -1,3 +1,7 @@
+
+### CSS 유연한 그리드 시스템 계산 공식
+
+```css
 /*! 유연한 그리드: Grid System 1200px [ 15↔120↔15 ] © yamoo9.net, 2016 */
 
 /*
@@ -143,4 +147,4 @@
 [class*="col-"] .suffix-6 { margin-right: 75%;     }
 [class*="col-"] .suffix-7 { margin-right: 88.75%;  }
 [class*="col-"] .suffix-8 { margin-right: 101.25%; }
-
+```
