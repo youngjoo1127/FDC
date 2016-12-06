@@ -23,13 +23,33 @@
     .brand {
       margin-top: 0;
       margin-bottom: 0;
+      padding: 1.4rem 0;
+    }
+    .brand a {
+      text-decoration: none;
+      color: #25a04d;
+    }
+    .toggle-menu {
+      float: right;
+      border: 1px solid currentColor;
+      margin-top: 0.9rem;
+      padding: 1rem 1.3rem;
+      background: #fff;
+      color: #25a04d;
+    }
+    .toggle-menu.opened {
+      background: #def6e4;
+    }
+    .toggle-menu.opened + .gnb {
+      display: block;
     }
     .gnb {
+      display: none;
       position: absolute;
-      top: 3rem;
+      top: 6rem;
       left: 0;
       width: 100vw;
-      background: #333;
+      background: #25a04d;
     }
     .gnb a {
       padding-top: 1em;
@@ -38,22 +58,23 @@
       color: #fff;
       text-decoration: none;
     }
-    .toggle-menu {
-
+    .gnb a:hover,
+    .gnb a:focus {
+      background: #207660;
     }
   </style>
   <!-- 모바일 최적화 meta:vp -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body class="leading-24">
+<body class="leading-10 show-grid">
 
   <div class="container columns-4">
-    <header role="banner" class="row">
+    <header role="banner" class="row gutters">
       <div class="col col--1-2">
-        <h1 class="brand">Fingo</h1>
+        <h1 class="brand"><a href="/">Fingo</a></h1>
       </div>
       <div class="col col--1-4 offset--1-4">
-        <button type="button" class="toggle-menu reset-button" aria-label="Toggle Global Menu">
+        <button type="button" class="opened toggle-menu reset-button" aria-label="Toggle Global Menu">
           <span class="fa fa-navicon" aria-hidden="true"></span>
         </button>
         <nav class="gnb">
