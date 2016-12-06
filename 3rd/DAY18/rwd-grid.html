@@ -24,6 +24,20 @@
       margin-top: 0;
       margin-bottom: 0;
     }
+    .gnb {
+      position: absolute;
+      top: 3rem;
+      left: 0;
+      width: 100vw;
+      background: #333;
+    }
+    .gnb a {
+      padding-top: 1em;
+      padding-bottom: 1em;
+      text-align: center;
+      color: #fff;
+      text-decoration: none;
+    }
     .toggle-menu {
 
     }
@@ -31,19 +45,28 @@
   <!-- 모바일 최적화 meta:vp -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body class="show-grid leading-24">
+<body class="leading-24">
 
   <div class="container columns-4">
-    <header role="banner" class="row gutters">
+    <header role="banner" class="row">
       <div class="col col--1-2">
         <h1 class="brand">Fingo</h1>
       </div>
-      <div class="col col--1-4">
+      <div class="col col--1-4 offset--1-4">
         <button type="button" class="toggle-menu reset-button" aria-label="Toggle Global Menu">
           <span class="fa fa-navicon" aria-hidden="true"></span>
         </button>
+        <nav class="gnb">
+          <ul>
+            <li><a href="">menu 1</a></li>
+            <li><a href="">menu 2</a></li>
+            <li><a href="">menu 3</a></li>
+            <li><a href="">menu 4</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
+
   </div>
 
 </body>
