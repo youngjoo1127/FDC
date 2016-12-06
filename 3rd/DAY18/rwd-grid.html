@@ -13,18 +13,33 @@
   <link rel="stylesheet" href="css/common/utils.css">
   <link rel="stylesheet" href="css/rwd/utils.css">
   <link rel="stylesheet" href="css/rwd/fluid.css">
+  <style>
+    html {
+      font-size: 10px;
+    }
+    body {
+      font-size: 1.6rem;
+    }
+    .brand {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .toggle-menu {
+
+    }
+  </style>
   <!-- 모바일 최적화 meta:vp -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body class="show-grid leading-24">
 
   <div class="container columns-4">
-    <header role="banner" class="row">
+    <header role="banner" class="row gutters">
       <div class="col col--1-2">
         <h1 class="brand">Fingo</h1>
       </div>
       <div class="col col--1-4">
-        <button type="button" class="toggle-menu" aria-label="Toggle Global Menu">
+        <button type="button" class="toggle-menu reset-button" aria-label="Toggle Global Menu">
           <span class="fa fa-navicon" aria-hidden="true"></span>
         </button>
       </div>

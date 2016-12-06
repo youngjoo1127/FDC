@@ -47,11 +47,11 @@
 }
 .container.columns-8::before {
   background-image: linear-gradient(to right, #fdafad 50%, #fa797a 50%);
-  background-size: 25.1% 1px;
+  background-size: 25% 1px;
 }
 .container.columns-12::before {
   background-image: linear-gradient(to right, #fdafad 50%, #fa797a 50%);
-  background-size: 16.9% 1px;
+  background-size: 16.66667% 1px;
 }
 /**
  * ------------------------------------
@@ -73,6 +73,7 @@
  * ------------------------------------ */
 .col,
 .cell {
+  box-sizing: border-box;
   float: left;
   width: 100%;
 }
@@ -147,3 +148,36 @@
 .col--7-12  { width: 58.3333%; }
 .col--10-12 { width: 83.3333%; }
 .col--11-12 { width: 91.6666%; }
+
+/**
+ * --------------------------------
+ * gutter module
+ * px, rem, em 등 사용 가능
+ * ----------------------------- */
+
+.row.gutters .col,
+.gutters {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.row.gutter-before .col,
+.gutter-before {
+  padding-left: 2em;
+}
+.row.gutter-before .col.first {
+  padding-left: 0;
+}
+.row.gutter-after .col,
+.gutter-after {
+  padding-right: 2em;
+}
+.row.gutter-after .col.last {
+  padding-right: 0;
+}
+.row.gutters,
+.row.gutter-before,
+.row.gutter-after,
+.container .row .no-gutter {
+  padding-left: 0;
+  padding-right: 0;
+}

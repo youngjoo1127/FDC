@@ -39,6 +39,12 @@ nav a,
   display: block;
 }
 
+.reset-button {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
 img {
   vertical-align: top;
 }
