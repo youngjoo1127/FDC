@@ -9,22 +9,70 @@
   margin-right: auto;
 }
 /**
+ * --------------------------------
+ * show-grid module
+ * ----------------------------- */
+[class*="show-grid"] {
+  min-height: 100vh;
+}
+.leading-10 {
+  background: linear-gradient(transparent 9px, #bbb 9px);
+  background-size: 1px 10px;
+}
+.leading-21 {
+  background: linear-gradient(transparent 20px, #bbb 20px);
+  background-size: 1px 21px;
+}
+.leading-24 {
+  background: linear-gradient(transparent 23px, #bbb 23px);
+  background-size: 1px 24px;
+}
+[class*="show-grid"] .container {
+  position: relative;
+  min-height: inherit;
+}
+[class*="show-grid"] .container::before {
+  content: '';
+  position: absolute;
+  z-index: 10000;
+  opacity: 0.45;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.container.columns-4::before {
+  background-image: linear-gradient(to right, #fdafad 50%, #fa797a 50%);
+  background-size: 50% 1px;
+}
+.container.columns-8::before {
+  background-image: linear-gradient(to right, #fdafad 50%, #fa797a 50%);
+  background-size: 25.1% 1px;
+}
+.container.columns-12::before {
+  background-image: linear-gradient(to right, #fdafad 50%, #fa797a 50%);
+  background-size: 16.9% 1px;
+}
+/**
  * ------------------------------------
- * row module
+ * row(grid) module
  * ------------------------------------ */
 .row:after,
-.row::after {
+.row::after,
+.grid:after,
+.grid::after {
   content: '';
   display: block;
   clear: both;
 }
 /**
  * ------------------------------------
- * column module
+ * column(cell) module
  * Naming Guide (like BEM)
  * e.g) .header__navigation--secondary
  * ------------------------------------ */
-.col {
+.col,
+.cell {
   float: left;
   width: 100%;
 }

@@ -4,14 +4,32 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta charset="UTF-8">
   <title>반응형 웹 디자인을 위한 그리드 시스템 구축</title>
+  <!-- CDN: FontAwesome -->
+  <link
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    rel="stylesheet">
+  <!-- 모듈 디자인: 재사용 -->
   <link rel="stylesheet" href="css/common/normalize.min.css">
   <link rel="stylesheet" href="css/common/utils.css">
   <link rel="stylesheet" href="css/rwd/utils.css">
   <link rel="stylesheet" href="css/rwd/fluid.css">
+  <!-- 모바일 최적화 meta:vp -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body class="show-grid leading-24">
 
-  <!-- 모듈 디자인: 재사용 -->
+  <div class="container columns-4">
+    <header role="banner" class="row">
+      <div class="col col--1-2">
+        <h1 class="brand">Fingo</h1>
+      </div>
+      <div class="col col--1-4">
+        <button type="button" class="toggle-menu" aria-label="Toggle Global Menu">
+          <span class="fa fa-navicon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+  </div>
 
 </body>
 </html>
