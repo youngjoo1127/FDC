@@ -20,9 +20,9 @@
   background-image: linear-gradient(transparent 9px, #c1c1c1 9px);
   background-size: 1px 10px;
 }
-
 .show-grid .container {
   position: relative;
+  /*overflow: hidden;*/
 }
 .show-grid .container:before {
   content: '';
@@ -32,21 +32,18 @@
   left: 0;
   width: 100%;
 }
-
 .show-grid .container:before {
+  min-height: 100vh;
   opacity: 0.3;
   background-image: linear-gradient(90deg, #fec1c5 50%, #f0727c 50%);
   background-size: calc(100%/2) 1px;
 }
-
-/* Tablet */
 @media only screen and (min-width: 48em) and (max-width: 73.8124em) {
   .show-grid .container:before {
     background-image: linear-gradient(90deg, #fec1c5 50%, #f0727c 50%);
     background-size: calc(100%/4) 1px;
   }
 }
-/* Desktop */
 @media only screen and (min-width: 73.8125em) {
   .show-grid .container:before {
     background-image: linear-gradient(90deg, #fec1c5 50%, #f0727c 50%);
@@ -219,13 +216,13 @@
  * ---------------- */
 /* Mobile */
 @media only screen and (max-width: 48em) {
-  .s-hidden {}
+  .s--hidden { display: none; }
 }
 /* Tablet */
 @media only screen and (min-width: 48em) and (max-width: 73.8124em) {
-  .m-hidden {}
+  .m--hidden { display: none; }
 }
 /* Desktop */
 @media only screen and (min-width: 73.8125em) {
-  .l-hidden {}
+  .l--hidden { display: none; }
 }
