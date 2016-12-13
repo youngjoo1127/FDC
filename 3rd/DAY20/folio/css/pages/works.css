@@ -1,0 +1,29 @@
+/*! works.css © yamoo9.net, 2016 */
+.page-works .column {
+  height: 187.5px;
+}
+.page-works .h-2x {
+  height: 375px;
+}
+.bi-1 {
+  height: inherit;
+  background: #bcb2ac;
+}
+.bi-2 {
+  height: inherit;
+  background: #322c27;
+}
+.texture-1 {
+  height: inherit;
+  background: #beb7b1;
+}
+.package-1 {
+  background: #dbb8a4;
+}
+.package-2 {
+  background: #b29a8d;
+}
+.package-3 {
+  height: inherit;
+  background: #473e41;
+}
