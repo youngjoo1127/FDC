@@ -1,9 +1,7 @@
 ###USER###
-temp
-Homeworks
-.sass-cache
-_1st_
-_2nd_
+.idea/
+__/
+*.key
 
 ###OSX###
 
@@ -60,5 +58,3 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
-
-*.key
