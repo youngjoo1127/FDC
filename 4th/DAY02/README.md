@@ -272,11 +272,15 @@ HTML `<blockquote>` 요소는 __감싸진 텍스트가 긴 인용문__임을 가
 
 <!--#### 인라인 요소-->
 
+-
+
 ### 과제
 
 __Typography__ Page Design [ PSD | Sketch ]
 
 본문, 제목 등 타이포그래피 구성요소 설계(Design) 하기.
+
+<img src="../../Assets/UI Kit - Typography/uikit.jpg" alt="ui kit">
 
 ---
 
