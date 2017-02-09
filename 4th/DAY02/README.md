@@ -1,5 +1,15 @@
 # DAY02
 
+### Cooming Soon Page Design
+
+과제 수행하신 분은 직접 제작한 페이지를, 과제 수행 못하신 분은 아래 데모 페이지를 가지고 진행한다.
+
+![hello vasilyev](../../Assets/hello-vasilyev.png)
+
+[PSD](../../Assets/hello-vasilyev.psd) Download
+
+-
+
 ### 웹 디자인 환경 분석/이해
 
 시스템이 기반한 디자인 방법론 [ `Typography` / `Grid System` / `Golden Ratio Rule` ]
@@ -262,8 +272,13 @@ HTML `<blockquote>` 요소는 __감싸진 텍스트가 긴 인용문__임을 가
 
 <!--#### 인라인 요소-->
 
+### 과제
+
+__Typography__ Page Design [ PSD | Sketch ]
+
 ---
 
 ### 참고하면 좋을 글
 
 [타이포그래피 필터링 결과, branch](https://brunch.co.kr/search?q=%ED%83%80%EC%9D%B4%ED%8F%AC%EA%B7%B8%EB%9E%98%ED%94%BC&profileId=)
+
