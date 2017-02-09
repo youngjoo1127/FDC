@@ -6,7 +6,7 @@
 
 ![hello vasilyev](../../Assets/hello-vasilyev.png)
 
-[PSD](../../Assets/hello-vasilyev.psd) Download
+[PSD Download](../../Assets/hello-vasilyev.psd)
 
 -
 
@@ -276,9 +276,11 @@ HTML `<blockquote>` 요소는 __감싸진 텍스트가 긴 인용문__임을 가
 
 __Typography__ Page Design [ PSD | Sketch ]
 
+본문, 제목 등 타이포그래피 구성요소 설계(Design) 하기.
+
 ---
 
 ### 참고하면 좋을 글
 
-[타이포그래피 필터링 결과, branch](https://brunch.co.kr/search?q=%ED%83%80%EC%9D%B4%ED%8F%AC%EA%B7%B8%EB%9E%98%ED%94%BC&profileId=)
+[타이포그래피 필터링 결과, brunch](https://brunch.co.kr/search?q=%ED%83%80%EC%9D%B4%ED%8F%AC%EA%B7%B8%EB%9E%98%ED%94%BC&profileId=)
 
