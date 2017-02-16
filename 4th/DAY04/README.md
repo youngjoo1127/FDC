@@ -352,3 +352,10 @@ h1 {
 
 - [A More Modern Scale for Web Typography](http://typecast.com/blog/a-more-modern-scale-for-web-typography)
 - [How To Use Size, Scale, And Proportion In Web Design](http://vanseodesign.com/web-design/size-scale-proportion/)
+
+### Sketch 강좌
+
+- https://www.sketchapp.com/learn/
+- http://blog.bluehack.net/category/ux_and_ui/
+- https://sketch3doko.wordpress.com/table-of-contents/
+- https://www.youtube.com/playlist?list=PLLnpHn493BHE6UIsdKYlS5zu-ZYvx22CS
