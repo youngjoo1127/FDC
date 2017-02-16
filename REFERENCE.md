@@ -108,3 +108,20 @@
 
 - [Viewport & Media Queries, The Complete Idiot's Guide](https://docs.google.com/presentation/d/1rmxwWa9P6_xHqonmh5ONXRS-jPc5XKbnv99Rjkhe04s/present?slide=id.i0)
 - [a pixel is not a pixel is not a pixel](http://www.quirksmode.org/blog/archives/2010/04/a_pixel_is_not.html)
+
+
+
+<!-- ### 컴포넌트 디자인
+
+- 버튼(Buttons)
+- 표(Tables)
+- 폼(Forms)
+  - 레이블(Label)
+  - 컨트롤(Controls)
+    - 인풋(Inputs)
+      - 라디오(Radio)
+      - 체크박스(Checkbox)
+    - 텍스트 영역(Textarea)
+    - 셀렉트 메뉴(Select Menu)
+
+     by YEBO -->
