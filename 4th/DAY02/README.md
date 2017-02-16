@@ -1,4 +1,4 @@
-# DAY02
+###### DAY02
 
 ### Cooming Soon Page Design
 
