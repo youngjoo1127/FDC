@@ -38,3 +38,4 @@
 - [ ] [kyuree](https://github.com/kyuree/kyuree.github.io/) 김규리
 - [ ] [biaen](https://github.com/biaen/biaen.github.io) 정철우
 - [ ] [youngjoo1127](https://github.com/youngjoo1127/youngjoo1127.github.io) 조영주
+- [ ] [yumins](https://github.com/yumins/yumins.github.io) 신유민
