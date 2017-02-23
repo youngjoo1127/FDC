@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/*! style.css @ yamoo9.net, 2017 */
+
+html {
+  /*height: 100%;*/
+  /*background-color: #fff;*/
+  font-size: 10px; /* rem 단위의 기준 값 */
+}
+
+/* body 요소에 배경이미지(leading 21px 패턴) 설정 */
+body {
+  /*height: 100%;*/
+  min-height: 100vh;
+  margin: 0;
+  background: url("../images/leading-21.png");
+  /*본문 디자인(상속)*/
+  /* font: [두께] [기울기] [응용] 크기[/행간] 글꼴; */
+  font: 1.4rem/1.5 "Spoqa Han Sans";
+  /*font-family: "Spoqa Han Sans";*/
+  /*font-size: 1.4rem;*/
+  /*line-height: 1.5;*/ /* CSS는 상속이라는 매커니즘을 사용하다 보니 단위를 붙이면 버그가 발생 */
+  letter-spacing: -0.02em;
+  color: #333741;
+}
+
+/* 본문 디자인 */
+p {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+
+/* 제목 공통 디자인 */
+h1,h2,h3,h4,h5,h6 {}
+
+/* 제목 개별 디자인 */
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+
+/* 목록 공통 디자인 */
+ul, ol {}
+
+/* 목록 개별 디자인 */
+ul {}
+ol {}
+
+/* 목록 항목(아이템) 디자인 */
+li {}
