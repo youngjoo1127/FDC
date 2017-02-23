@@ -63,11 +63,51 @@ h6 {
 }
 
 /* 목록 공통 디자인 */
-ul, ol {}
+ul, ol {
+  /* 웹 브라우저 기본 스타일(User Agent Style) 제거 */
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
 
 /* 목록 개별 디자인 */
-ul {}
-ol {}
+/*ul {}*/
+/*ol {}*/
 
 /* 목록 항목(아이템) 디자인 */
-li {}
+li {
+  margin-bottom: 4.2rem;
+}
+
+/* 하이퍼링크 디자인 */
+a[href] {
+  color: #3292a7;
+  text-decoration: none;
+}
+/* 상태 디자인 
+   기본 상태 (Normal State, :link)
+   방문한 상태 (Visited State, :visited)
+   마우스가 올라간 상태 (Hover State, :hover)
+   클릭한(활성) 상태 (Active State, :active)
+   포커스 상태 (Focus State, :focus)
+   비활성 상태 (Deactive State)
+*/
+a[href]:hover {
+  color: #227e92;
+  text-decoration: underline;
+}
+
+/* 블록 요소 내, 이미지 하단 공간 제거 */
+img {
+  vertical-align: bottom;
+}
+
+/* ------------------------------------------------- */
+
+/* 페이지 컨테이너 */
+.conatiner {
+  width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+}
