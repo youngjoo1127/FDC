@@ -8,24 +8,27 @@
 1. [2017.02.09](./DAY02/README.md) 웹 디자인 환경에 대한 이해 그리고 웹 문서
 1. [2017.02.14](./DAY03/README.md) 웹 타이포그래피 Part 1.
 1. [2017.02.16](./DAY04/README.md) 웹 타이포그래피 Part 2.
+1. [2017.02.21](./DAY05/README.md) 웹 타이포그래피 Part 3.
+1. [2017.02.23](./DAY06/README.md) 웹 타이포그래피 Part 4.
+1. [2017.02.28](./DAY07/README.md) 웹 레이아웃 디자인 Part 1.
 
 ---
 
 # FDC Github.io 리스트
 
-- [x] [starseeker38](https://github.com/starseeker38/starseeker38.github.io) 은정희
-- [x] [softcamp2017](https://github.com/softcamp2017/softcamp2017.github.io) 손지영
-- [x] [iamwouldyou](https://github.com/iamwouldyou/iamwouldyou.github.io) 유우주
-- [x] [allison14](https://github.com/allison14/allison14.github.io) 박지호
-- [x] [roscoe11](https://github.com/roscoe11/roscoe11.github.io) 김현정
-- [x] [shinsu91](https://github.com/shinsu91/shinsu91.github.io) 신수정
-- [x] [tatoruz](https://github.com/tatoruz/tatoruz.github.io) 김예진
-- [x] [marojay](https://github.com/marojay/marojay.github.io) 정민정
-- [x] [eyeray](https://github.com/eyeray/eyeray.github.io) 서범석
-- [x] [hw0507](https://github.com/hw0507/hw0507.github.io) 이혜원
-- [x] [ihyen](https://github.com/ihyen/ihyen.github.io) 이혜은
-- [x] [pooah](https://github.com/pooah/pooah.github.io) 황은아
-- [x] [i9930](http://github.com/i9930/i9930.github.io) 김선혜
+- [ ] [starseeker38](https://github.com/starseeker38/starseeker38.github.io) 은정희
+- [ ] [softcamp2017](https://github.com/softcamp2017/softcamp2017.github.io) 손지영
+- [ ] [iamwouldyou](https://github.com/iamwouldyou/iamwouldyou.github.io) 유우주
+- [ ] [allison14](https://github.com/allison14/allison14.github.io) 박지호
+- [ ] [roscoe11](https://github.com/roscoe11/roscoe11.github.io) 김현정
+- [ ] [shinsu91](https://github.com/shinsu91/shinsu91.github.io) 신수정
+- [ ] [tatoruz](https://github.com/tatoruz/tatoruz.github.io) 김예진
+- [ ] [marojay](https://github.com/marojay/marojay.github.io) 정민정
+- [ ] [eyeray](https://github.com/eyeray/eyeray.github.io) 서범석
+- [ ] [hw0507](https://github.com/hw0507/hw0507.github.io) 이혜원
+- [ ] [ihyen](https://github.com/ihyen/ihyen.github.io) 이혜은
+- [ ] [pooah](https://github.com/pooah/pooah.github.io) 황은아
+- [ ] [i9930](http://github.com/i9930/i9930.github.io) 김선혜
 - [ ] [verybusystudio](https://github.com/verybusystudio/verybusystudio.github.io) 박진희
 - [ ] [tykimdesign](https://github.com/tykimdesign/tykimdesign.github.io) 김태연
 - [ ] [beatrice51](https://beatrice51.github.io) 김복은
