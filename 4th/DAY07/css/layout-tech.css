@@ -9,7 +9,7 @@ hr {
 }
 
 .wrapper {
-  width: 640px;
+  width: 660px;
   margin: 9rem auto;
 }
 
@@ -61,4 +61,13 @@ hr {
   border-color: #3fb5c8;
   background: #3fb5c8;
   color: #fff;
+}
+
+.album-image {
+  /*width: 100%;
+  height: auto;*/
+  margin: 5px;
+  border: 8px solid #474cc5;
+  padding: 20px;
+  background: #fff;
 }
