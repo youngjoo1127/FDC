@@ -10,8 +10,7 @@ hr {
 
 .wrapper {
   width: 640px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 9rem auto;
 }
 
 .block-box,
@@ -26,5 +25,40 @@ hr {
   /* padding-top, padding-bottom 은 inline 요소에는 적용되지 않습니다. (간격이 벌어지지 않는다) */
   padding: 25px;
   background: hsla(21, 55%, 52%, 0.3);
+  color: #fff;
+}
+
+.inline-block-box {
+  /* 화면 표시 방법: inline-block 변경 */
+  /*
+    기본적으로는 inline 처럼 보이지만,
+    block 처럼 레이아웃 설정이 가능하다.
+    상/하 공간 설정 가능.
+    width/height 설정 가능.
+  */
+  display: inline-block;
+  background: #25a04d;
+  color: #ffd219;
+}
+
+
+.ghost-style-link {
+  display: inline-block;
+  margin: 20px;
+  border: 3px solid currentColor;
+  padding: 0.9375em 1.25em 0.625em;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #3fb5c8;
+  transition: all 0.4s ease;
+}
+
+.ghost-style-link:hover {
+  border-color: #3fb5c8;
+  background: #3fb5c8;
   color: #fff;
 }
