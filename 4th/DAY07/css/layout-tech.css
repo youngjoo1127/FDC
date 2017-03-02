@@ -1,5 +1,14 @@
 body {
   margin: 0;
+  font: 300 1rem/1.5 "Spoqa Han Sans";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.4em;
+  margin-bottom: 0.55em;
+  font-weight: 700;
+  letter-spacing: -0.045em;
+  color: #5070D5;
 }
 
 hr {
@@ -37,7 +46,10 @@ hr {
     width/height 설정 가능.
   */
   display: inline-block;
-  background: #25a04d;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  font-weight: 700;
+  background: #474cc5;
   color: #ffd219;
 }
 
@@ -46,20 +58,20 @@ hr {
   display: inline-block;
   margin: 20px;
   border: 3px solid currentColor;
-  padding: 0.9375em 1.25em 0.625em;
+  padding: 0.9375em 1.25em;
   font-size: 1rem;
   font-weight: 300;
   line-height: 1;
   letter-spacing: -0.03em;
   text-decoration: none;
   text-transform: uppercase;
-  color: #3fb5c8;
-  transition: all 0.4s ease;
+  color: #474cc5;
+  transition: all 0.2s ease-out;
 }
 
 .ghost-style-link:hover {
-  border-color: #3fb5c8;
-  background: #3fb5c8;
+  border-color: #474cc5;
+  background: #474cc5;
   color: #fff;
 }
 
