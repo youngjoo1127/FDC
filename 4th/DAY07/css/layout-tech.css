@@ -1,3 +1,13 @@
+/* :가상클래스  VS ::가상요소(Pseudo Element) */
+p::-moz-selection {
+  background: #efd4c6;
+  color: #7b6d66;
+}
+::selection {
+  background: #efd4c6;
+  color: #7b6d66;
+}
+
 body {
   margin: 0;
   font: 300 1rem/1.5 "Spoqa Han Sans";
