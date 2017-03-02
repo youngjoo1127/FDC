@@ -11,6 +11,7 @@
 1. [2017.02.21](./DAY05/README.md) &nbsp; ⌲ &nbsp; 웹 타이포그래피 Part 3.
 1. [2017.02.23](./DAY06/README.md) &nbsp; ⌲ &nbsp; 웹 타이포그래피 Part 4.
 1. [2017.02.28](./DAY07/README.md) &nbsp; ⌲ &nbsp; 웹 레이아웃 디자인 Part 1.
+1. [2017.03.02](./DAY08/README.md) &nbsp; ⌲ &nbsp; 웹 레이아웃 디자인 Part 2.
 
 ---
 
