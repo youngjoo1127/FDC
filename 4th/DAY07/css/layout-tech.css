@@ -79,7 +79,11 @@ hr {
   /*width: 100%;
   height: auto;*/
   margin: 5px;
-  border: 8px solid #474cc5;
+  border: 8px solid #ccc;
   padding: 20px;
   background: #fff;
+  transition: border-color 340ms;
+}
+.album-image:hover {
+  border-color: #474cc5;
 }
