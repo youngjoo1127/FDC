@@ -6,11 +6,17 @@
 }
 
 .article {
-  font-size: 29px;
-
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: Helvetica, Arial, Verdana;
+  line-height: 1.5;
 }
 
 .article__media {
   float: left;
   margin-right: 20px;
+}
+
+.article p {
+  margin-bottom: 1.5rem;
 }
